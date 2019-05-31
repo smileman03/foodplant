@@ -1,0 +1,4797 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1685</width>
+    <height>820</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="silos_zerno">
+    <property name="geometry">
+     <rect>
+      <x>6</x>
+      <y>16</y>
+      <width>501</width>
+      <height>181</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>siloszerno.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="silos1up">
+    <property name="geometry">
+     <rect>
+      <x>910</x>
+      <y>586</y>
+      <width>21</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>statusfalse.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="silos1do">
+    <property name="geometry">
+     <rect>
+      <x>910</x>
+      <y>677</y>
+      <width>21</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>statusfalse.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="silos2do">
+    <property name="geometry">
+     <rect>
+      <x>960</x>
+      <y>677</y>
+      <width>21</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>statusfalse.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="silos2up">
+    <property name="geometry">
+     <rect>
+      <x>962</x>
+      <y>587</y>
+      <width>21</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>statusfalse.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="silos3do">
+    <property name="geometry">
+     <rect>
+      <x>1010</x>
+      <y>676</y>
+      <width>21</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>statusfalse.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="silos3up">
+    <property name="geometry">
+     <rect>
+      <x>1011</x>
+      <y>587</y>
+      <width>21</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>statusfalse.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="silos4do">
+    <property name="geometry">
+     <rect>
+      <x>1070</x>
+      <y>677</y>
+      <width>21</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>statusfalse.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="silos4up">
+    <property name="geometry">
+     <rect>
+      <x>1071</x>
+      <y>587</y>
+      <width>21</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>statusfalse.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="silos5do">
+    <property name="geometry">
+     <rect>
+      <x>1120</x>
+      <y>676</y>
+      <width>21</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>statusfalse.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="silos5up">
+    <property name="geometry">
+     <rect>
+      <x>1120</x>
+      <y>587</y>
+      <width>21</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>statusfalse.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="silos6do">
+    <property name="geometry">
+     <rect>
+      <x>1170</x>
+      <y>676</y>
+      <width>21</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>statusfalse.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="silos6up">
+    <property name="geometry">
+     <rect>
+      <x>1171</x>
+      <y>587</y>
+      <width>21</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>statusfalse.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="ves1">
+    <property name="geometry">
+     <rect>
+      <x>67</x>
+      <y>262</y>
+      <width>171</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>ves1.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="zernoshnek3">
+    <property name="geometry">
+     <rect>
+      <x>118</x>
+      <y>181</y>
+      <width>31</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>shnek3zernostop.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="zernoshnek4">
+    <property name="geometry">
+     <rect>
+      <x>167</x>
+      <y>180</y>
+      <width>31</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>shnek4zernostop.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="zernoshnek5">
+    <property name="geometry">
+     <rect>
+      <x>222</x>
+      <y>176</y>
+      <width>71</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>shnek5zernostop.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="zernoshnek6">
+    <property name="geometry">
+     <rect>
+      <x>277</x>
+      <y>176</y>
+      <width>51</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>shnek6zernostop.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="zernoshnek7">
+    <property name="geometry">
+     <rect>
+      <x>328</x>
+      <y>174</y>
+      <width>21</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>shnek7zernostop.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="zernoshnek8">
+    <property name="geometry">
+     <rect>
+      <x>359</x>
+      <y>174</y>
+      <width>51</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>shnek8zernostop.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="zernoshnek9">
+    <property name="geometry">
+     <rect>
+      <x>388</x>
+      <y>174</y>
+      <width>51</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>shnek9zernostop.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="zernoshnek10">
+    <property name="geometry">
+     <rect>
+      <x>418</x>
+      <y>175</y>
+      <width>71</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>shnek10zernostop.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="ves2">
+    <property name="geometry">
+     <rect>
+      <x>266</x>
+      <y>262</y>
+      <width>171</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>ves2.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_24">
+    <property name="geometry">
+     <rect>
+      <x>509</x>
+      <y>59</y>
+      <width>301</width>
+      <height>131</height>
+     </rect>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>silosdobavka.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="dobavkisilos6up">
+    <property name="geometry">
+     <rect>
+      <x>769</x>
+      <y>66</y>
+      <width>21</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>statusfalse.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="dobavkisilos1do">
+    <property name="geometry">
+     <rect>
+      <x>521</x>
+      <y>152</y>
+      <width>21</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>statusfalse.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="dobavkisilos2do">
+    <property name="geometry">
+     <rect>
+      <x>571</x>
+      <y>152</y>
+      <width>21</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>statusfalse.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="dobavkisilos5do">
+    <property name="geometry">
+     <rect>
+      <x>721</x>
+      <y>151</y>
+      <width>21</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>statusfalse.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="dobavkisilos3do">
+    <property name="geometry">
+     <rect>
+      <x>621</x>
+      <y>151</y>
+      <width>21</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>statusfalse.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="dobavkisilos3up">
+    <property name="geometry">
+     <rect>
+      <x>619</x>
+      <y>66</y>
+      <width>21</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>statusfalse.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="dobavkisilos6do">
+    <property name="geometry">
+     <rect>
+      <x>771</x>
+      <y>151</y>
+      <width>21</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>statusfalse.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="dobavkisilos5up">
+    <property name="geometry">
+     <rect>
+      <x>719</x>
+      <y>66</y>
+      <width>21</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>statusfalse.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="dobavkisilos4do">
+    <property name="geometry">
+     <rect>
+      <x>671</x>
+      <y>152</y>
+      <width>21</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>statusfalse.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="dobavkisilos4up">
+    <property name="geometry">
+     <rect>
+      <x>670</x>
+      <y>66</y>
+      <width>21</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>statusfalse.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="dobavkisilos1up">
+    <property name="geometry">
+     <rect>
+      <x>519</x>
+      <y>66</y>
+      <width>21</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>statusfalse.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="dobavkisilos2up">
+    <property name="geometry">
+     <rect>
+      <x>570</x>
+      <y>66</y>
+      <width>21</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>statusfalse.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="flex2">
+    <property name="geometry">
+     <rect>
+      <x>579</x>
+      <y>177</y>
+      <width>31</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>flex2stop.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="flex1">
+    <property name="geometry">
+     <rect>
+      <x>529</x>
+      <y>176</y>
+      <width>51</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>flex1stop.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="flex3">
+    <property name="geometry">
+     <rect>
+      <x>619</x>
+      <y>175</y>
+      <width>21</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>flex3stop.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="flex6">
+    <property name="geometry">
+     <rect>
+      <x>720</x>
+      <y>177</y>
+      <width>71</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>flex6stop.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="flex4">
+    <property name="geometry">
+     <rect>
+      <x>660</x>
+      <y>176</y>
+      <width>31</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>flex4stop.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="flex5">
+    <property name="geometry">
+     <rect>
+      <x>689</x>
+      <y>176</y>
+      <width>51</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>flex5stop.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="ves3">
+    <property name="geometry">
+     <rect>
+      <x>568</x>
+      <y>264</y>
+      <width>171</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>ves3.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="mixer">
+    <property name="geometry">
+     <rect>
+      <x>567</x>
+      <y>407</y>
+      <width>171</width>
+      <height>131</height>
+     </rect>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>mixerstop.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="ves2_2">
+    <property name="geometry">
+     <rect>
+      <x>273</x>
+      <y>364</y>
+      <width>151</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>bunkerves2.gif</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="ves1_2">
+    <property name="geometry">
+     <rect>
+      <x>99</x>
+      <y>362</y>
+      <width>111</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>bunkerves1.gif</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="ves1bunkersens">
+    <property name="geometry">
+     <rect>
+      <x>141</x>
+      <y>406</y>
+      <width>21</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>statusfalse.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="ves2bunkersens2">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>409</y>
+      <width>21</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>statusfalse.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="ves2bunkersens1">
+    <property name="geometry">
+     <rect>
+      <x>314</x>
+      <y>409</y>
+      <width>21</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>statusfalse.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="ves1shiber">
+    <property name="geometry">
+     <rect>
+      <x>108</x>
+      <y>339</y>
+      <width>81</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>vesishiberclose.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="ves2shiber">
+    <property name="geometry">
+     <rect>
+      <x>307</x>
+      <y>338</y>
+      <width>81</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>vesishiberclose.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="ves3shiber">
+    <property name="geometry">
+     <rect>
+      <x>609</x>
+      <y>340</y>
+      <width>81</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>vesishiberclose.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="ves1sensclose">
+    <property name="geometry">
+     <rect>
+      <x>103</x>
+      <y>339</y>
+      <width>16</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>statusminifalse.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="ves1sensopen">
+    <property name="geometry">
+     <rect>
+      <x>182</x>
+      <y>339</y>
+      <width>16</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>statusminifalse.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="ves2sensclose">
+    <property name="geometry">
+     <rect>
+      <x>303</x>
+      <y>338</y>
+      <width>16</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>statusminifalse.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="ves2sensopen">
+    <property name="geometry">
+     <rect>
+      <x>381</x>
+      <y>338</y>
+      <width>16</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>statusminifalse.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="ves3sensopen">
+    <property name="geometry">
+     <rect>
+      <x>682</x>
+      <y>340</y>
+      <width>16</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>statusminifalse.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="ves3sensclose">
+    <property name="geometry">
+     <rect>
+      <x>605</x>
+      <y>340</y>
+      <width>16</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>statusminifalse.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_14">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>350</y>
+      <width>651</width>
+      <height>311</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>lines.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="ves1shnek1">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>440</y>
+      <width>131</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>shnek_nakl_stop.gif</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="ves1shnek2">
+    <property name="geometry">
+     <rect>
+      <x>102</x>
+      <y>525</y>
+      <width>131</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>shnek_nakl_stop.gif</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="ves2shnek">
+    <property name="geometry">
+     <rect>
+      <x>307</x>
+      <y>529</y>
+      <width>131</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>shnek_nakl_stop.gif</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="drobilka1">
+    <property name="geometry">
+     <rect>
+      <x>303</x>
+      <y>447</y>
+      <width>61</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>drobilka_off.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="drobilka2">
+    <property name="geometry">
+     <rect>
+      <x>367</x>
+      <y>447</y>
+      <width>61</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>drobilka_off.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="mixer_2">
+    <property name="geometry">
+     <rect>
+      <x>567</x>
+      <y>442</y>
+      <width>171</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>mixer2_stop.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="mixerbunkersens">
+    <property name="geometry">
+     <rect>
+      <x>641</x>
+      <y>605</y>
+      <width>21</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>statusfalse.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="bunkermixer">
+    <property name="geometry">
+     <rect>
+      <x>599</x>
+      <y>575</y>
+      <width>111</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>bunkerves1.gif</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="mixershnek1">
+    <property name="geometry">
+     <rect>
+      <x>596</x>
+      <y>651</y>
+      <width>121</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>shnek_hor_stop.gif</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="mixershnek2">
+    <property name="geometry">
+     <rect>
+      <x>710</x>
+      <y>591</y>
+      <width>121</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>shnek_nakl_stop.gif</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="noria">
+    <property name="geometry">
+     <rect>
+      <x>830</x>
+      <y>326</y>
+      <width>71</width>
+      <height>361</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>noriastop.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="terminator1">
+    <property name="geometry">
+     <rect>
+      <x>910</x>
+      <y>503</y>
+      <width>121</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>terminator1stop.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="terminator2">
+    <property name="geometry">
+     <rect>
+      <x>1050</x>
+      <y>503</y>
+      <width>121</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>terminator2stop.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_18">
+    <property name="geometry">
+     <rect>
+      <x>890</x>
+      <y>351</y>
+      <width>201</width>
+      <height>161</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>klapan perekidnoi.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_15">
+    <property name="geometry">
+     <rect>
+      <x>780</x>
+      <y>268</y>
+      <width>41</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>maslobochka.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="maslonasos">
+    <property name="geometry">
+     <rect>
+      <x>790</x>
+      <y>336</y>
+      <width>21</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>motor.gif</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="zernosilos4">
+    <property name="geometry">
+     <rect>
+      <x>168</x>
+      <y>141</y>
+      <width>21</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>statusfalse.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="zernosilos1">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>141</y>
+      <width>21</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>statusfalse.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="zernosilos5">
+    <property name="geometry">
+     <rect>
+      <x>218</x>
+      <y>140</y>
+      <width>21</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>statusfalse.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="zernosilos2">
+    <property name="geometry">
+     <rect>
+      <x>68</x>
+      <y>141</y>
+      <width>21</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>statusfalse.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="zernosilos6">
+    <property name="geometry">
+     <rect>
+      <x>268</x>
+      <y>140</y>
+      <width>21</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>statusfalse.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="zernosilos3">
+    <property name="geometry">
+     <rect>
+      <x>118</x>
+      <y>140</y>
+      <width>21</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>statusfalse.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="zernosilos7">
+    <property name="geometry">
+     <rect>
+      <x>318</x>
+      <y>140</y>
+      <width>21</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>statusfalse.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="zernosilos10">
+    <property name="geometry">
+     <rect>
+      <x>468</x>
+      <y>140</y>
+      <width>21</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>statusfalse.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="zernosilos8">
+    <property name="geometry">
+     <rect>
+      <x>368</x>
+      <y>140</y>
+      <width>21</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>statusfalse.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="zernosilos9">
+    <property name="geometry">
+     <rect>
+      <x>418</x>
+      <y>139</y>
+      <width>21</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>statusfalse.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="siloskorm1">
+    <property name="geometry">
+     <rect>
+      <x>900</x>
+      <y>566</y>
+      <width>51</width>
+      <height>161</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>silos.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="siloskorm2">
+    <property name="geometry">
+     <rect>
+      <x>950</x>
+      <y>566</y>
+      <width>51</width>
+      <height>161</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>silos.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="siloskorm3">
+    <property name="geometry">
+     <rect>
+      <x>1000</x>
+      <y>566</y>
+      <width>51</width>
+      <height>161</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>silos.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="siloskorm6">
+    <property name="geometry">
+     <rect>
+      <x>1160</x>
+      <y>566</y>
+      <width>51</width>
+      <height>161</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>silos.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="siloskorm5">
+    <property name="geometry">
+     <rect>
+      <x>1110</x>
+      <y>566</y>
+      <width>51</width>
+      <height>161</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>silos.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="siloskorm4">
+    <property name="geometry">
+     <rect>
+      <x>1060</x>
+      <y>566</y>
+      <width>51</width>
+      <height>161</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>silos.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="silos1shiberclose">
+    <property name="geometry">
+     <rect>
+      <x>897</x>
+      <y>549</y>
+      <width>16</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>statusminifalse.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="silos1shiber">
+    <property name="geometry">
+     <rect>
+      <x>911</x>
+      <y>548</y>
+      <width>21</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>silosshiberclose.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="silos1shiberopen">
+    <property name="geometry">
+     <rect>
+      <x>930</x>
+      <y>549</y>
+      <width>16</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>statusminifalse.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="silos2shiberopen">
+    <property name="geometry">
+     <rect>
+      <x>981</x>
+      <y>549</y>
+      <width>16</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>statusminifalse.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="silos2shiberclose">
+    <property name="geometry">
+     <rect>
+      <x>948</x>
+      <y>549</y>
+      <width>16</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>statusminifalse.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="silos2shiber">
+    <property name="geometry">
+     <rect>
+      <x>962</x>
+      <y>548</y>
+      <width>21</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>silosshiberclose.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="silos4shiberopen">
+    <property name="geometry">
+     <rect>
+      <x>1091</x>
+      <y>549</y>
+      <width>16</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>statusminifalse.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="silos5shiber">
+    <property name="geometry">
+     <rect>
+      <x>1122</x>
+      <y>548</y>
+      <width>21</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>silosshiberclose.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="silos4shiberclose">
+    <property name="geometry">
+     <rect>
+      <x>1058</x>
+      <y>549</y>
+      <width>16</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>statusminifalse.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="silos5shiberopen">
+    <property name="geometry">
+     <rect>
+      <x>1141</x>
+      <y>549</y>
+      <width>16</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>statusminifalse.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="silos5shiberclose">
+    <property name="geometry">
+     <rect>
+      <x>1108</x>
+      <y>549</y>
+      <width>16</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>statusminifalse.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="silos4shiber">
+    <property name="geometry">
+     <rect>
+      <x>1072</x>
+      <y>548</y>
+      <width>21</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>silosshiberclose.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="zernoshnek3_2">
+    <property name="geometry">
+     <rect>
+      <x>96</x>
+      <y>175</y>
+      <width>61</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>shnek_nakl_stop.gif</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="zernoshnek4_2">
+    <property name="geometry">
+     <rect>
+      <x>148</x>
+      <y>173</y>
+      <width>71</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>shnek_nakl_stop.gif</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="zernoshnek5_2">
+    <property name="geometry">
+     <rect>
+      <x>198</x>
+      <y>173</y>
+      <width>71</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>shnek_nakl_stop.gif</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="zernoshnek6_2">
+    <property name="geometry">
+     <rect>
+      <x>248</x>
+      <y>173</y>
+      <width>71</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>shnek_nakl_stop.gif</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="zernoshnek7_2">
+    <property name="geometry">
+     <rect>
+      <x>298</x>
+      <y>173</y>
+      <width>71</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>shnek_nakl_stop.gif</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="zernoshnek8_2">
+    <property name="geometry">
+     <rect>
+      <x>348</x>
+      <y>173</y>
+      <width>71</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>shnek_nakl_stop.gif</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="zernoshnek9_2">
+    <property name="geometry">
+     <rect>
+      <x>398</x>
+      <y>173</y>
+      <width>71</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>shnek_nakl_stop.gif</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="zernoshnek10_2">
+    <property name="geometry">
+     <rect>
+      <x>448</x>
+      <y>173</y>
+      <width>71</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>shnek_nakl_stop.gif</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="flex1_2">
+    <property name="geometry">
+     <rect>
+      <x>510</x>
+      <y>190</y>
+      <width>41</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>shnek_nakl_stop.gif</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="flex2_2">
+    <property name="geometry">
+     <rect>
+      <x>560</x>
+      <y>190</y>
+      <width>41</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>shnek_nakl_stop.gif</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="flex3_2">
+    <property name="geometry">
+     <rect>
+      <x>610</x>
+      <y>190</y>
+      <width>41</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>shnek_nakl_stop.gif</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="flex4_2">
+    <property name="geometry">
+     <rect>
+      <x>660</x>
+      <y>190</y>
+      <width>41</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>shnek_nakl_stop.gif</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="flex6_2">
+    <property name="geometry">
+     <rect>
+      <x>760</x>
+      <y>190</y>
+      <width>41</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>shnek_nakl_stop.gif</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="flex5_2">
+    <property name="geometry">
+     <rect>
+      <x>710</x>
+      <y>190</y>
+      <width>41</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>shnek_nakl_stop.gif</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QGroupBox" name="groupBox">
+    <property name="geometry">
+     <rect>
+      <x>99</x>
+      <y>338</y>
+      <width>101</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_2">
+    <property name="geometry">
+     <rect>
+      <x>298</x>
+      <y>337</y>
+      <width>101</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_3">
+    <property name="geometry">
+     <rect>
+      <x>599</x>
+      <y>339</y>
+      <width>101</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_10">
+    <property name="geometry">
+     <rect>
+      <x>894</x>
+      <y>548</y>
+      <width>51</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_11">
+    <property name="geometry">
+     <rect>
+      <x>945</x>
+      <y>548</y>
+      <width>51</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_12">
+    <property name="geometry">
+     <rect>
+      <x>1106</x>
+      <y>548</y>
+      <width>51</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_13">
+    <property name="geometry">
+     <rect>
+      <x>1055</x>
+      <y>548</y>
+      <width>51</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="dobavkaedit1">
+    <property name="geometry">
+     <rect>
+      <x>510</x>
+      <y>90</y>
+      <width>41</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="dobavkaedit2">
+    <property name="geometry">
+     <rect>
+      <x>560</x>
+      <y>90</y>
+      <width>41</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="dobavkaedit3">
+    <property name="geometry">
+     <rect>
+      <x>610</x>
+      <y>90</y>
+      <width>41</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="dobavkaedit4">
+    <property name="geometry">
+     <rect>
+      <x>660</x>
+      <y>90</y>
+      <width>41</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="dobavkaedit5">
+    <property name="geometry">
+     <rect>
+      <x>710</x>
+      <y>90</y>
+      <width>41</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="dobavkaedit6">
+    <property name="geometry">
+     <rect>
+      <x>760</x>
+      <y>90</y>
+      <width>41</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="zernoedit3">
+    <property name="geometry">
+     <rect>
+      <x>109</x>
+      <y>61</y>
+      <width>41</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="zernoedit4">
+    <property name="geometry">
+     <rect>
+      <x>159</x>
+      <y>61</y>
+      <width>41</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="zernoedit5">
+    <property name="geometry">
+     <rect>
+      <x>209</x>
+      <y>61</y>
+      <width>41</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="zernoedit6">
+    <property name="geometry">
+     <rect>
+      <x>259</x>
+      <y>61</y>
+      <width>41</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="zernoedit7">
+    <property name="geometry">
+     <rect>
+      <x>309</x>
+      <y>61</y>
+      <width>41</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="zernoedit8">
+    <property name="geometry">
+     <rect>
+      <x>359</x>
+      <y>61</y>
+      <width>41</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="zernoedit9">
+    <property name="geometry">
+     <rect>
+      <x>409</x>
+      <y>61</y>
+      <width>41</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="zernoedit10">
+    <property name="geometry">
+     <rect>
+      <x>459</x>
+      <y>61</y>
+      <width>41</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="masloedit">
+    <property name="geometry">
+     <rect>
+      <x>780</x>
+      <y>278</y>
+      <width>41</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="klapan1">
+    <property name="geometry">
+     <rect>
+      <x>910</x>
+      <y>416</y>
+      <width>21</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>klapan1false.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="klapan2">
+    <property name="geometry">
+     <rect>
+      <x>1051</x>
+      <y>416</y>
+      <width>21</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>klapan2false.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelves1">
+    <property name="geometry">
+     <rect>
+      <x>107</x>
+      <y>294</y>
+      <width>80</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>0.0</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelves2">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>296</y>
+      <width>80</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>0.0</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelves3">
+    <property name="geometry">
+     <rect>
+      <x>610</x>
+      <y>297</y>
+      <width>80</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>0.0</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelbanka3">
+    <property name="geometry">
+     <rect>
+      <x>114</x>
+      <y>120</y>
+      <width>31</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>0.0</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelbanka4">
+    <property name="geometry">
+     <rect>
+      <x>163</x>
+      <y>120</y>
+      <width>31</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>0.0</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelbanka5">
+    <property name="geometry">
+     <rect>
+      <x>214</x>
+      <y>120</y>
+      <width>31</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>0.0</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelbanka6">
+    <property name="geometry">
+     <rect>
+      <x>265</x>
+      <y>120</y>
+      <width>31</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>0.0</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelbanka7">
+    <property name="geometry">
+     <rect>
+      <x>314</x>
+      <y>120</y>
+      <width>31</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>0.0</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelbanka8">
+    <property name="geometry">
+     <rect>
+      <x>364</x>
+      <y>120</y>
+      <width>31</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>0.0</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelbanka9">
+    <property name="geometry">
+     <rect>
+      <x>414</x>
+      <y>120</y>
+      <width>31</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>0.0</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelbanka10">
+    <property name="geometry">
+     <rect>
+      <x>464</x>
+      <y>120</y>
+      <width>31</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>0.0</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelbanka11">
+    <property name="geometry">
+     <rect>
+      <x>515</x>
+      <y>134</y>
+      <width>31</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>0.0</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelbanka12">
+    <property name="geometry">
+     <rect>
+      <x>566</x>
+      <y>134</y>
+      <width>31</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>0.0</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelbanka13">
+    <property name="geometry">
+     <rect>
+      <x>616</x>
+      <y>134</y>
+      <width>31</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>0.0</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelbanka14">
+    <property name="geometry">
+     <rect>
+      <x>666</x>
+      <y>134</y>
+      <width>31</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>0.0</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelbanka15">
+    <property name="geometry">
+     <rect>
+      <x>715</x>
+      <y>134</y>
+      <width>31</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>0.0</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelbanka16">
+    <property name="geometry">
+     <rect>
+      <x>765</x>
+      <y>134</y>
+      <width>31</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>0.0</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_14">
+    <property name="geometry">
+     <rect>
+      <x>900</x>
+      <y>3</y>
+      <width>301</width>
+      <height>301</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Заказ</string>
+    </property>
+    <widget class="QComboBox" name="comboBoxRecept">
+     <property name="geometry">
+      <rect>
+       <x>4</x>
+       <y>33</y>
+       <width>201</width>
+       <height>22</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="kormneedcount">
+     <property name="geometry">
+      <rect>
+       <x>204</x>
+       <y>33</y>
+       <width>91</width>
+       <height>20</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_2">
+     <property name="geometry">
+      <rect>
+       <x>15</x>
+       <y>16</y>
+       <width>61</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Комбикорм</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_3">
+     <property name="geometry">
+      <rect>
+       <x>188</x>
+       <y>17</y>
+       <width>111</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Количество замесов</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="addtoqueuebtn">
+     <property name="geometry">
+      <rect>
+       <x>5</x>
+       <y>55</y>
+       <width>291</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Добавить в очередь</string>
+     </property>
+    </widget>
+    <widget class="QGroupBox" name="groupBox_15">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>82</y>
+       <width>301</width>
+       <height>141</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>Очередь</string>
+     </property>
+     <widget class="QTableWidget" name="tableWidget">
+      <property name="geometry">
+       <rect>
+        <x>-1</x>
+        <y>16</y>
+        <width>301</width>
+        <height>111</height>
+       </rect>
+      </property>
+      <property name="lineWidth">
+       <number>1</number>
+      </property>
+      <property name="rowCount">
+       <number>10</number>
+      </property>
+      <property name="columnCount">
+       <number>2</number>
+      </property>
+      <attribute name="horizontalHeaderShowSortIndicator" stdset="0">
+       <bool>false</bool>
+      </attribute>
+      <attribute name="horizontalHeaderStretchLastSection">
+       <bool>true</bool>
+      </attribute>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <column>
+       <property name="text">
+        <string>Комбикорм</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Кол-во</string>
+       </property>
+      </column>
+     </widget>
+    </widget>
+    <widget class="QPushButton" name="delbtn">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>216</y>
+       <width>301</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Очистить</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkboxmode">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>250</y>
+       <width>141</width>
+       <height>18</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Ручное управление</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_16">
+    <property name="geometry">
+     <rect>
+      <x>1200</x>
+      <y>417</y>
+      <width>471</width>
+      <height>351</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string/>
+    </property>
+    <widget class="QLabel" name="labelquerycount">
+     <property name="geometry">
+      <rect>
+       <x>140</x>
+       <y>50</y>
+       <width>101</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_5">
+     <property name="geometry">
+      <rect>
+       <x>140</x>
+       <y>70</y>
+       <width>101</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QTabWidget" name="tabWidget">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>481</width>
+       <height>351</height>
+      </rect>
+     </property>
+     <property name="currentIndex">
+      <number>0</number>
+     </property>
+     <widget class="QWidget" name="tab">
+      <attribute name="title">
+       <string>Статус</string>
+      </attribute>
+      <widget class="QLabel" name="labelrealweight3">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>300</y>
+         <width>221</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>WEIGHT3</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="labelves2readyunload">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>34</y>
+         <width>201</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>VES2READYUNLOAD</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="labelnoriaready">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>200</y>
+         <width>201</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>NORIAREADY</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="labelmixerreadyload">
+       <property name="geometry">
+        <rect>
+         <x>11</x>
+         <y>99</y>
+         <width>201</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>MIXERREADYLOAD</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="labelmasloready">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>170</y>
+         <width>201</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>MASLOREADY</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="labelrealweight1">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>278</y>
+         <width>221</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>WEIGHT1</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="labelves2readyload">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>18</y>
+         <width>201</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>VES2READYLOAD</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="labelves3readyload">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>58</y>
+         <width>201</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>VES3READYLOAD</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="labelline2readyload">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>140</y>
+         <width>201</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>LINE2READYLOAD</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="labelrealweight2">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>288</y>
+         <width>221</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>WEIGHT2</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="labelves3readyunload">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>73</y>
+         <width>201</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>VES3READYUNLOAD</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="labelmixerreadyunload">
+       <property name="geometry">
+        <rect>
+         <x>11</x>
+         <y>113</y>
+         <width>201</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>MIXERREADYUNLOAD</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="labeldopdobready">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>230</y>
+         <width>201</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>DOPDOBREADY</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="labelcountqueue">
+       <property name="geometry">
+        <rect>
+         <x>230</x>
+         <y>20</y>
+         <width>101</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Счетчик очереди</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="labelcountzames">
+       <property name="geometry">
+        <rect>
+         <x>230</x>
+         <y>47</y>
+         <width>91</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Счетчик замесов</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="labeltimer">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>250</y>
+         <width>151</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>plcglobal tick</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="tab_2">
+      <attribute name="title">
+       <string>Команды</string>
+      </attribute>
+      <widget class="QTextEdit" name="stagestext">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>40</y>
+         <width>451</width>
+         <height>211</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="combostages">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>10</y>
+         <width>151</width>
+         <height>22</height>
+        </rect>
+       </property>
+       <item>
+        <property name="text">
+         <string>Весы12 ЗАГРУЗИТЬ</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Весы3 ЗАГРУЗИТЬ</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Весы1 ВЫГРУЗИТЬ</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Весы2 ВЫГРУЗИТЬ</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Весы3 ВЫГРУЗИТЬ</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>МАСЛО ЗАГРУЗИТЬ</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>МИКСЕР ВЫГРУЗИТЬ</string>
+        </property>
+       </item>
+      </widget>
+      <widget class="QPushButton" name="btnaddstage">
+       <property name="geometry">
+        <rect>
+         <x>160</x>
+         <y>10</y>
+         <width>31</width>
+         <height>23</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>+</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="btnsubstage">
+       <property name="geometry">
+        <rect>
+         <x>200</x>
+         <y>10</y>
+         <width>31</width>
+         <height>23</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>-</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="tab_3">
+      <attribute name="title">
+       <string>Этапы</string>
+      </attribute>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QLabel" name="mixershiber">
+    <property name="geometry">
+     <rect>
+      <x>611</x>
+      <y>534</y>
+      <width>81</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>vesishiberclose.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="mixersensopen">
+    <property name="geometry">
+     <rect>
+      <x>684</x>
+      <y>534</y>
+      <width>16</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>statusminifalse.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="mixersensclose">
+    <property name="geometry">
+     <rect>
+      <x>607</x>
+      <y>534</y>
+      <width>16</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>statusminifalse.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_17">
+    <property name="geometry">
+     <rect>
+      <x>601</x>
+      <y>533</y>
+      <width>101</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="autokombikorm">
+    <property name="geometry">
+     <rect>
+      <x>1130</x>
+      <y>410</y>
+      <width>21</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>statusfalse.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="ruchnokombikorm">
+    <property name="geometry">
+     <rect>
+      <x>1130</x>
+      <y>440</y>
+      <width>21</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>statusfalse.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelbanka17">
+    <property name="geometry">
+     <rect>
+      <x>785</x>
+      <y>301</y>
+      <width>31</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>0.0</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="zeroves1btn">
+    <property name="geometry">
+     <rect>
+      <x>169</x>
+      <y>267</y>
+      <width>61</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: qlineargradient(spread:pad, x1:0.58, y1:1, x2:0.567909, y2:0, stop:0 rgba(255, 0, 0, 0));</string>
+    </property>
+    <property name="text">
+     <string>Обнулить</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="zeroves2btn">
+    <property name="geometry">
+     <rect>
+      <x>368</x>
+      <y>267</y>
+      <width>61</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: qlineargradient(spread:pad, x1:0.58, y1:1, x2:0.567909, y2:0, stop:0 rgba(255, 0, 0, 0));</string>
+    </property>
+    <property name="text">
+     <string>Обнулить</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="zeroves3btn">
+    <property name="geometry">
+     <rect>
+      <x>670</x>
+      <y>269</y>
+      <width>61</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: qlineargradient(spread:pad, x1:0.58, y1:1, x2:0.567909, y2:0, stop:0 rgba(255, 0, 0, 0));</string>
+    </property>
+    <property name="text">
+     <string>Обнулить</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>1160</x>
+      <y>415</y>
+      <width>46</width>
+      <height>13</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Авто</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>1160</x>
+      <y>445</y>
+      <width>46</width>
+      <height>13</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Ручно</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="masloline">
+    <property name="geometry">
+     <rect>
+      <x>674</x>
+      <y>353</y>
+      <width>141</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="linedrobilka2">
+    <property name="geometry">
+     <rect>
+      <x>382</x>
+      <y>434</y>
+      <width>46</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lineves2">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>350</y>
+      <width>16</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lineves1">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>350</y>
+      <width>16</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lineves3">
+    <property name="geometry">
+     <rect>
+      <x>640</x>
+      <y>354</y>
+      <width>21</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lineklapan1">
+    <property name="geometry">
+     <rect>
+      <x>891</x>
+      <y>337</y>
+      <width>46</width>
+      <height>191</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lineklapan2">
+    <property name="geometry">
+     <rect>
+      <x>890</x>
+      <y>347</y>
+      <width>201</width>
+      <height>170</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="linemixerbunker">
+    <property name="geometry">
+     <rect>
+      <x>650</x>
+      <y>530</y>
+      <width>16</width>
+      <height>131</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="dopdobavka">
+    <property name="geometry">
+     <rect>
+      <x>720</x>
+      <y>420</y>
+      <width>101</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>statusfalse.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>744</x>
+      <y>424</y>
+      <width>71</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Доп добавка</string>
+    </property>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_18">
+    <property name="geometry">
+     <rect>
+      <x>1200</x>
+      <y>3</y>
+      <width>471</width>
+      <height>411</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Лог</string>
+    </property>
+    <widget class="QTextEdit" name="textEdit">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>20</y>
+       <width>461</width>
+       <height>391</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="verticalScrollBarPolicy">
+      <enum>Qt::ScrollBarAlwaysOn</enum>
+     </property>
+     <property name="horizontalScrollBarPolicy">
+      <enum>Qt::ScrollBarAlwaysOn</enum>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QPushButton" name="stopbtn">
+    <property name="geometry">
+     <rect>
+      <x>1117</x>
+      <y>275</y>
+      <width>81</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>СТОП</string>
+    </property>
+    <property name="autoDefault">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pausebtn">
+    <property name="geometry">
+     <rect>
+      <x>1026</x>
+      <y>275</y>
+      <width>91</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Пауза</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="startbtn">
+    <property name="geometry">
+     <rect>
+      <x>903</x>
+      <y>275</y>
+      <width>61</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Старт</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="connectstatuslabel">
+    <property name="geometry">
+     <rect>
+      <x>18</x>
+      <y>5</y>
+      <width>461</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <italic>false</italic>
+      <bold>true</bold>
+      <strikeout>false</strikeout>
+      <kerning>true</kerning>
+     </font>
+    </property>
+    <property name="text">
+     <string>Соединение с ПЛК</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelinfoves3">
+    <property name="geometry">
+     <rect>
+      <x>508</x>
+      <y>210</y>
+      <width>301</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelinfoves12">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>210</y>
+      <width>311</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelinfonoria">
+    <property name="geometry">
+     <rect>
+      <x>900</x>
+      <y>359</y>
+      <width>301</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Нория пуста</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelinfooil">
+    <property name="geometry">
+     <rect>
+      <x>710</x>
+      <y>238</y>
+      <width>191</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelbanka1text">
+    <property name="geometry">
+     <rect>
+      <x>913</x>
+      <y>630</y>
+      <width>20</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>1</string>
+    </property>
+    <property name="scaledContents">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelbanka2text">
+    <property name="geometry">
+     <rect>
+      <x>963</x>
+      <y>630</y>
+      <width>20</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>2</string>
+    </property>
+    <property name="scaledContents">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelbanka3text">
+    <property name="geometry">
+     <rect>
+      <x>1012</x>
+      <y>630</y>
+      <width>20</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>3</string>
+    </property>
+    <property name="scaledContents">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelbanka4text">
+    <property name="geometry">
+     <rect>
+      <x>1072</x>
+      <y>630</y>
+      <width>20</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>4</string>
+    </property>
+    <property name="scaledContents">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelbanka5text">
+    <property name="geometry">
+     <rect>
+      <x>1123</x>
+      <y>630</y>
+      <width>20</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>5</string>
+    </property>
+    <property name="scaledContents">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelbanka6text">
+    <property name="geometry">
+     <rect>
+      <x>1173</x>
+      <y>630</y>
+      <width>20</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>6</string>
+    </property>
+    <property name="scaledContents">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkdopdob">
+    <property name="geometry">
+     <rect>
+      <x>520</x>
+      <y>30</y>
+      <width>151</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Учитывать доп добавку</string>
+    </property>
+    <property name="checkable">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelinfoline12">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>440</y>
+      <width>331</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLCDNumber" name="lcdNumber">
+    <property name="geometry">
+     <rect>
+      <x>628</x>
+      <y>412</y>
+      <width>41</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="palette">
+     <palette>
+      <active>
+       <colorrole role="WindowText">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>255</red>
+          <green>255</green>
+          <blue>255</blue>
+         </color>
+        </brush>
+       </colorrole>
+       <colorrole role="Button">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+         </color>
+        </brush>
+       </colorrole>
+       <colorrole role="Light">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+         </color>
+        </brush>
+       </colorrole>
+       <colorrole role="Midlight">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+         </color>
+        </brush>
+       </colorrole>
+       <colorrole role="Dark">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+         </color>
+        </brush>
+       </colorrole>
+       <colorrole role="Mid">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+         </color>
+        </brush>
+       </colorrole>
+       <colorrole role="Text">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>255</red>
+          <green>255</green>
+          <blue>255</blue>
+         </color>
+        </brush>
+       </colorrole>
+       <colorrole role="BrightText">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>255</red>
+          <green>255</green>
+          <blue>255</blue>
+         </color>
+        </brush>
+       </colorrole>
+       <colorrole role="ButtonText">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>255</red>
+          <green>255</green>
+          <blue>255</blue>
+         </color>
+        </brush>
+       </colorrole>
+       <colorrole role="Base">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+         </color>
+        </brush>
+       </colorrole>
+       <colorrole role="Window">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+         </color>
+        </brush>
+       </colorrole>
+       <colorrole role="Shadow">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+         </color>
+        </brush>
+       </colorrole>
+       <colorrole role="AlternateBase">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+         </color>
+        </brush>
+       </colorrole>
+       <colorrole role="ToolTipBase">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>255</red>
+          <green>255</green>
+          <blue>220</blue>
+         </color>
+        </brush>
+       </colorrole>
+       <colorrole role="ToolTipText">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+         </color>
+        </brush>
+       </colorrole>
+      </active>
+      <inactive>
+       <colorrole role="WindowText">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>255</red>
+          <green>255</green>
+          <blue>255</blue>
+         </color>
+        </brush>
+       </colorrole>
+       <colorrole role="Button">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+         </color>
+        </brush>
+       </colorrole>
+       <colorrole role="Light">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+         </color>
+        </brush>
+       </colorrole>
+       <colorrole role="Midlight">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+         </color>
+        </brush>
+       </colorrole>
+       <colorrole role="Dark">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+         </color>
+        </brush>
+       </colorrole>
+       <colorrole role="Mid">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+         </color>
+        </brush>
+       </colorrole>
+       <colorrole role="Text">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>255</red>
+          <green>255</green>
+          <blue>255</blue>
+         </color>
+        </brush>
+       </colorrole>
+       <colorrole role="BrightText">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>255</red>
+          <green>255</green>
+          <blue>255</blue>
+         </color>
+        </brush>
+       </colorrole>
+       <colorrole role="ButtonText">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>255</red>
+          <green>255</green>
+          <blue>255</blue>
+         </color>
+        </brush>
+       </colorrole>
+       <colorrole role="Base">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+         </color>
+        </brush>
+       </colorrole>
+       <colorrole role="Window">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+         </color>
+        </brush>
+       </colorrole>
+       <colorrole role="Shadow">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+         </color>
+        </brush>
+       </colorrole>
+       <colorrole role="AlternateBase">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+         </color>
+        </brush>
+       </colorrole>
+       <colorrole role="ToolTipBase">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>255</red>
+          <green>255</green>
+          <blue>220</blue>
+         </color>
+        </brush>
+       </colorrole>
+       <colorrole role="ToolTipText">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+         </color>
+        </brush>
+       </colorrole>
+      </inactive>
+      <disabled>
+       <colorrole role="WindowText">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+         </color>
+        </brush>
+       </colorrole>
+       <colorrole role="Button">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+         </color>
+        </brush>
+       </colorrole>
+       <colorrole role="Light">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+         </color>
+        </brush>
+       </colorrole>
+       <colorrole role="Midlight">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+         </color>
+        </brush>
+       </colorrole>
+       <colorrole role="Dark">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+         </color>
+        </brush>
+       </colorrole>
+       <colorrole role="Mid">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+         </color>
+        </brush>
+       </colorrole>
+       <colorrole role="Text">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+         </color>
+        </brush>
+       </colorrole>
+       <colorrole role="BrightText">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>255</red>
+          <green>255</green>
+          <blue>255</blue>
+         </color>
+        </brush>
+       </colorrole>
+       <colorrole role="ButtonText">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+         </color>
+        </brush>
+       </colorrole>
+       <colorrole role="Base">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+         </color>
+        </brush>
+       </colorrole>
+       <colorrole role="Window">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+         </color>
+        </brush>
+       </colorrole>
+       <colorrole role="Shadow">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+         </color>
+        </brush>
+       </colorrole>
+       <colorrole role="AlternateBase">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+         </color>
+        </brush>
+       </colorrole>
+       <colorrole role="ToolTipBase">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>255</red>
+          <green>255</green>
+          <blue>220</blue>
+         </color>
+        </brush>
+       </colorrole>
+       <colorrole role="ToolTipText">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+         </color>
+        </brush>
+       </colorrole>
+      </disabled>
+     </palette>
+    </property>
+    <property name="value" stdset="0">
+     <double>-1.000000000000000</double>
+    </property>
+   </widget>
+   <widget class="QLabel" name="linedrobilka1">
+    <property name="geometry">
+     <rect>
+      <x>322</x>
+      <y>430</y>
+      <width>46</width>
+      <height>171</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="line2shnekmixer">
+    <property name="geometry">
+     <rect>
+      <x>412</x>
+      <y>369</y>
+      <width>231</width>
+      <height>211</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="chastota1">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>270</y>
+      <width>46</width>
+      <height>13</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>0 Hz</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="chastota2">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>268</y>
+      <width>41</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>0 Hz</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnunload2">
+    <property name="geometry">
+     <rect>
+      <x>360</x>
+      <y>320</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Выгрузить</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnunload1">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>320</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Выгрузить</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnload12">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>245</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Загрузить</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkboxline2">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>535</y>
+      <width>71</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Включить</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkboxline1">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>529</y>
+      <width>71</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Включить</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkboxmixer">
+    <property name="geometry">
+     <rect>
+      <x>740</x>
+      <y>470</y>
+      <width>71</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Включить</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnload3">
+    <property name="geometry">
+     <rect>
+      <x>612</x>
+      <y>246</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Загрузить</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnunload3">
+    <property name="geometry">
+     <rect>
+      <x>660</x>
+      <y>322</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Выгрузить</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnunloadmixer">
+    <property name="geometry">
+     <rect>
+      <x>700</x>
+      <y>510</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Выгрузить</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnoil">
+    <property name="geometry">
+     <rect>
+      <x>763</x>
+      <y>360</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Загрузить</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkboxlinek">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>957</x>
+      <y>440</y>
+      <width>71</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Включить</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnsetuplinek">
+    <property name="geometry">
+     <rect>
+      <x>950</x>
+      <y>460</y>
+      <width>91</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Перенастроить</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btndopdobavka">
+    <property name="geometry">
+     <rect>
+      <x>770</x>
+      <y>420</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Уведомить</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelactivebanka">
+    <property name="geometry">
+     <rect>
+      <x>940</x>
+      <y>526</y>
+      <width>191</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>1110</x>
+      <y>330</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Отладка</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelauto">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>5</y>
+      <width>391</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Century</family>
+      <pointsize>16</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Программа в АВТО-режиме</string>
+    </property>
+   </widget>
+   <zorder>groupBox_16</zorder>
+   <zorder>label_14</zorder>
+   <zorder>ves2</zorder>
+   <zorder>groupBox</zorder>
+   <zorder>groupBox_3</zorder>
+   <zorder>groupBox_2</zorder>
+   <zorder>groupBox_17</zorder>
+   <zorder>ves3shiber</zorder>
+   <zorder>groupBox_10</zorder>
+   <zorder>groupBox_12</zorder>
+   <zorder>groupBox_13</zorder>
+   <zorder>groupBox_11</zorder>
+   <zorder>label_18</zorder>
+   <zorder>silos_zerno</zorder>
+   <zorder>ves1</zorder>
+   <zorder>zernoshnek3</zorder>
+   <zorder>zernoshnek4</zorder>
+   <zorder>zernoshnek5</zorder>
+   <zorder>zernoshnek6</zorder>
+   <zorder>zernoshnek7</zorder>
+   <zorder>zernoshnek8</zorder>
+   <zorder>zernoshnek9</zorder>
+   <zorder>zernoshnek10</zorder>
+   <zorder>label_24</zorder>
+   <zorder>dobavkisilos6up</zorder>
+   <zorder>dobavkisilos1do</zorder>
+   <zorder>dobavkisilos2do</zorder>
+   <zorder>dobavkisilos5do</zorder>
+   <zorder>dobavkisilos3do</zorder>
+   <zorder>dobavkisilos3up</zorder>
+   <zorder>dobavkisilos6do</zorder>
+   <zorder>dobavkisilos5up</zorder>
+   <zorder>dobavkisilos4do</zorder>
+   <zorder>dobavkisilos4up</zorder>
+   <zorder>dobavkisilos1up</zorder>
+   <zorder>dobavkisilos2up</zorder>
+   <zorder>flex2</zorder>
+   <zorder>flex1</zorder>
+   <zorder>flex3</zorder>
+   <zorder>flex6</zorder>
+   <zorder>flex4</zorder>
+   <zorder>flex5</zorder>
+   <zorder>ves3</zorder>
+   <zorder>ves2_2</zorder>
+   <zorder>ves1_2</zorder>
+   <zorder>ves1bunkersens</zorder>
+   <zorder>ves2bunkersens2</zorder>
+   <zorder>ves2bunkersens1</zorder>
+   <zorder>ves1sensclose</zorder>
+   <zorder>ves1sensopen</zorder>
+   <zorder>ves2sensclose</zorder>
+   <zorder>ves2sensopen</zorder>
+   <zorder>ves3sensopen</zorder>
+   <zorder>ves3sensclose</zorder>
+   <zorder>ves1shnek1</zorder>
+   <zorder>ves1shnek2</zorder>
+   <zorder>mixershnek2</zorder>
+   <zorder>noria</zorder>
+   <zorder>terminator1</zorder>
+   <zorder>terminator2</zorder>
+   <zorder>label_15</zorder>
+   <zorder>maslonasos</zorder>
+   <zorder>zernosilos4</zorder>
+   <zorder>zernosilos1</zorder>
+   <zorder>zernosilos5</zorder>
+   <zorder>zernosilos2</zorder>
+   <zorder>zernosilos6</zorder>
+   <zorder>zernosilos3</zorder>
+   <zorder>zernosilos7</zorder>
+   <zorder>zernosilos10</zorder>
+   <zorder>zernosilos8</zorder>
+   <zorder>zernosilos9</zorder>
+   <zorder>siloskorm1</zorder>
+   <zorder>siloskorm2</zorder>
+   <zorder>siloskorm3</zorder>
+   <zorder>siloskorm6</zorder>
+   <zorder>siloskorm5</zorder>
+   <zorder>siloskorm4</zorder>
+   <zorder>silos1shiberclose</zorder>
+   <zorder>silos1shiber</zorder>
+   <zorder>silos1shiberopen</zorder>
+   <zorder>silos2shiberopen</zorder>
+   <zorder>silos2shiberclose</zorder>
+   <zorder>silos2shiber</zorder>
+   <zorder>silos4shiberopen</zorder>
+   <zorder>silos5shiber</zorder>
+   <zorder>silos4shiberclose</zorder>
+   <zorder>silos5shiberopen</zorder>
+   <zorder>silos5shiberclose</zorder>
+   <zorder>silos4shiber</zorder>
+   <zorder>silos2up</zorder>
+   <zorder>silos1do</zorder>
+   <zorder>silos2do</zorder>
+   <zorder>silos1up</zorder>
+   <zorder>silos3up</zorder>
+   <zorder>silos3do</zorder>
+   <zorder>silos4do</zorder>
+   <zorder>silos5do</zorder>
+   <zorder>silos4up</zorder>
+   <zorder>silos6up</zorder>
+   <zorder>silos6do</zorder>
+   <zorder>silos5up</zorder>
+   <zorder>zernoshnek3_2</zorder>
+   <zorder>zernoshnek4_2</zorder>
+   <zorder>zernoshnek5_2</zorder>
+   <zorder>zernoshnek6_2</zorder>
+   <zorder>zernoshnek7_2</zorder>
+   <zorder>zernoshnek8_2</zorder>
+   <zorder>zernoshnek9_2</zorder>
+   <zorder>zernoshnek10_2</zorder>
+   <zorder>flex1_2</zorder>
+   <zorder>flex2_2</zorder>
+   <zorder>flex3_2</zorder>
+   <zorder>flex4_2</zorder>
+   <zorder>flex6_2</zorder>
+   <zorder>flex5_2</zorder>
+   <zorder>dobavkaedit1</zorder>
+   <zorder>dobavkaedit2</zorder>
+   <zorder>dobavkaedit3</zorder>
+   <zorder>dobavkaedit4</zorder>
+   <zorder>dobavkaedit5</zorder>
+   <zorder>dobavkaedit6</zorder>
+   <zorder>zernoedit3</zorder>
+   <zorder>zernoedit4</zorder>
+   <zorder>zernoedit5</zorder>
+   <zorder>zernoedit6</zorder>
+   <zorder>zernoedit7</zorder>
+   <zorder>zernoedit8</zorder>
+   <zorder>zernoedit9</zorder>
+   <zorder>zernoedit10</zorder>
+   <zorder>labelves2</zorder>
+   <zorder>labelves3</zorder>
+   <zorder>labelbanka3</zorder>
+   <zorder>labelbanka4</zorder>
+   <zorder>labelbanka5</zorder>
+   <zorder>labelbanka6</zorder>
+   <zorder>labelbanka7</zorder>
+   <zorder>labelbanka8</zorder>
+   <zorder>labelbanka9</zorder>
+   <zorder>labelbanka10</zorder>
+   <zorder>labelbanka11</zorder>
+   <zorder>labelbanka12</zorder>
+   <zorder>labelbanka13</zorder>
+   <zorder>labelbanka14</zorder>
+   <zorder>labelbanka15</zorder>
+   <zorder>labelbanka16</zorder>
+   <zorder>groupBox_14</zorder>
+   <zorder>mixersensopen</zorder>
+   <zorder>mixersensclose</zorder>
+   <zorder>autokombikorm</zorder>
+   <zorder>ruchnokombikorm</zorder>
+   <zorder>labelves1</zorder>
+   <zorder>labelbanka17</zorder>
+   <zorder>zeroves2btn</zorder>
+   <zorder>zeroves1btn</zorder>
+   <zorder>zeroves3btn</zorder>
+   <zorder>label</zorder>
+   <zorder>label_4</zorder>
+   <zorder>masloline</zorder>
+   <zorder>linedrobilka2</zorder>
+   <zorder>ves2shnek</zorder>
+   <zorder>drobilka1</zorder>
+   <zorder>drobilka2</zorder>
+   <zorder>lineves2</zorder>
+   <zorder>ves2shiber</zorder>
+   <zorder>lineves1</zorder>
+   <zorder>ves1shiber</zorder>
+   <zorder>lineves3</zorder>
+   <zorder>lineklapan1</zorder>
+   <zorder>klapan1</zorder>
+   <zorder>linemixerbunker</zorder>
+   <zorder>mixershnek1</zorder>
+   <zorder>mixershiber</zorder>
+   <zorder>mixer</zorder>
+   <zorder>bunkermixer</zorder>
+   <zorder>mixerbunkersens</zorder>
+   <zorder>mixer_2</zorder>
+   <zorder>lineklapan2</zorder>
+   <zorder>klapan2</zorder>
+   <zorder>masloedit</zorder>
+   <zorder>label_6</zorder>
+   <zorder>dopdobavka</zorder>
+   <zorder>groupBox_18</zorder>
+   <zorder>stopbtn</zorder>
+   <zorder>pausebtn</zorder>
+   <zorder>startbtn</zorder>
+   <zorder>connectstatuslabel</zorder>
+   <zorder>labelinfoves3</zorder>
+   <zorder>labelinfoves12</zorder>
+   <zorder>labelinfonoria</zorder>
+   <zorder>labelinfooil</zorder>
+   <zorder>labelbanka1text</zorder>
+   <zorder>labelbanka2text</zorder>
+   <zorder>labelbanka3text</zorder>
+   <zorder>labelbanka4text</zorder>
+   <zorder>labelbanka5text</zorder>
+   <zorder>labelbanka6text</zorder>
+   <zorder>checkdopdob</zorder>
+   <zorder>labelinfoline12</zorder>
+   <zorder>lcdNumber</zorder>
+   <zorder>linedrobilka1</zorder>
+   <zorder>line2shnekmixer</zorder>
+   <zorder>chastota1</zorder>
+   <zorder>chastota2</zorder>
+   <zorder>btnunload2</zorder>
+   <zorder>btnunload1</zorder>
+   <zorder>btnload12</zorder>
+   <zorder>checkboxline2</zorder>
+   <zorder>checkboxline1</zorder>
+   <zorder>checkboxmixer</zorder>
+   <zorder>btnload3</zorder>
+   <zorder>btnunload3</zorder>
+   <zorder>btnunloadmixer</zorder>
+   <zorder>btnoil</zorder>
+   <zorder>checkboxlinek</zorder>
+   <zorder>btnsetuplinek</zorder>
+   <zorder>btndopdobavka</zorder>
+   <zorder>labelactivebanka</zorder>
+   <zorder>pushButton</zorder>
+   <zorder>labelauto</zorder>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1685</width>
+     <height>18</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuMenu">
+    <property name="title">
+     <string>Menu</string>
+    </property>
+    <addaction name="actionexit"/>
+   </widget>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>Рецепт</string>
+    </property>
+    <addaction name="editkorm"/>
+    <addaction name="editzerno"/>
+    <addaction name="editdobavka"/>
+    <addaction name="editrecept"/>
+   </widget>
+   <widget class="QMenu" name="menuoption">
+    <property name="title">
+     <string>Настройки</string>
+    </property>
+    <addaction name="cal_action"/>
+   </widget>
+   <addaction name="menuMenu"/>
+   <addaction name="menu"/>
+   <addaction name="menuoption"/>
+  </widget>
+  <action name="actionexit">
+   <property name="text">
+    <string>Выход</string>
+   </property>
+  </action>
+  <action name="editkorm">
+   <property name="text">
+    <string>Комбикорм</string>
+   </property>
+  </action>
+  <action name="editzerno">
+   <property name="text">
+    <string>Зерно</string>
+   </property>
+  </action>
+  <action name="editdobavka">
+   <property name="text">
+    <string>Добавка</string>
+   </property>
+  </action>
+  <action name="editrecept">
+   <property name="text">
+    <string>Рецепт</string>
+   </property>
+  </action>
+  <action name="cal_action">
+   <property name="text">
+    <string>Калибровка весов</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

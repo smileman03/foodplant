@@ -1,0 +1,1467 @@
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,888] UI version is 4.0
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,888] uiname is MainWindow
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,888] toplevel widget is QMainWindow
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,888] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,888] setting property windowTitle
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,890] push QMainWindow MainWindow
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,890] push QWidget centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,890] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,890] setting property text
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,891] setting property pixmap
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,891] push QLabel silos_zerno
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,891] pop widget QLabel silos_zerno
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,891] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,891] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,891] setting property text
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,891] setting property pixmap
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,891] push QLabel silos1up
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,891] pop widget QLabel silos1up
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,891] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,891] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,892] setting property text
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,892] setting property pixmap
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,892] push QLabel silos1do
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,892] pop widget QLabel silos1do
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,892] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,892] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,892] setting property text
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,892] setting property pixmap
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,894] push QLabel silos2do
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,894] pop widget QLabel silos2do
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,894] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,894] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,894] setting property text
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,894] setting property pixmap
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,894] push QLabel silos2up
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,894] pop widget QLabel silos2up
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,894] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,894] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,894] setting property text
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,894] setting property pixmap
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,894] push QLabel silos3do
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,894] pop widget QLabel silos3do
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,894] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,894] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,895] setting property text
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,895] setting property pixmap
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,895] push QLabel silos3up
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,895] pop widget QLabel silos3up
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,895] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,895] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,895] setting property text
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,895] setting property pixmap
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,897] push QLabel silos4do
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,897] pop widget QLabel silos4do
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,897] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,897] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,897] setting property text
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,897] setting property pixmap
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,897] push QLabel silos4up
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,898] pop widget QLabel silos4up
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,898] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,898] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,898] setting property text
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,898] setting property pixmap
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,898] push QLabel silos5do
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,898] pop widget QLabel silos5do
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,898] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,898] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,898] setting property text
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,898] setting property pixmap
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,898] push QLabel silos5up
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,898] pop widget QLabel silos5up
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,898] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,898] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,898] setting property text
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,900] setting property pixmap
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,900] push QLabel silos6do
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,900] pop widget QLabel silos6do
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,900] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,900] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,901] setting property text
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,901] setting property pixmap
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,901] push QLabel silos6up
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,901] pop widget QLabel silos6up
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,901] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,901] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,901] setting property frameShadow
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,901] setting property text
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,901] setting property pixmap
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,901] push QLabel ves1
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,901] pop widget QLabel ves1
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,901] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,901] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,901] setting property frameShadow
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,901] setting property text
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,901] setting property pixmap
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,903] push QLabel zernoshnek3
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,903] pop widget QLabel zernoshnek3
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,903] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,903] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,903] setting property frameShadow
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,903] setting property text
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,903] setting property pixmap
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,904] push QLabel zernoshnek4
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,904] pop widget QLabel zernoshnek4
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,904] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,904] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,904] setting property frameShadow
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,904] setting property text
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,904] setting property pixmap
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,904] push QLabel zernoshnek5
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,904] pop widget QLabel zernoshnek5
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,904] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,904] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,904] setting property frameShadow
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,904] setting property text
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,904] setting property pixmap
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,905] push QLabel zernoshnek6
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,905] pop widget QLabel zernoshnek6
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,905] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,905] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,905] setting property frameShadow
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,905] setting property text
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,905] setting property pixmap
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,907] push QLabel zernoshnek7
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,907] pop widget QLabel zernoshnek7
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,907] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,907] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,907] setting property frameShadow
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,907] setting property text
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,907] setting property pixmap
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,907] push QLabel zernoshnek8
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,907] pop widget QLabel zernoshnek8
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,907] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,907] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,907] setting property frameShadow
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,907] setting property text
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,907] setting property pixmap
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,908] push QLabel zernoshnek9
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,908] pop widget QLabel zernoshnek9
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,908] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,908] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,908] setting property frameShadow
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,908] setting property text
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,908] setting property pixmap
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,910] push QLabel zernoshnek10
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,910] pop widget QLabel zernoshnek10
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,910] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,910] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,910] setting property frameShadow
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,910] setting property text
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,910] setting property pixmap
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,911] push QLabel ves2
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,911] pop widget QLabel ves2
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,911] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,911] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,911] setting property frameShadow
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,911] setting property text
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,911] setting property pixmap
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,911] push QLabel label_24
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,911] pop widget QLabel label_24
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,911] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,911] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,911] setting property text
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,911] setting property pixmap
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,911] push QLabel dobavkisilos6up
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,911] pop widget QLabel dobavkisilos6up
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,911] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,913] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,913] setting property text
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,913] setting property pixmap
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,913] push QLabel dobavkisilos1do
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,913] pop widget QLabel dobavkisilos1do
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,913] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,913] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,913] setting property text
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,914] setting property pixmap
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,914] push QLabel dobavkisilos2do
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,914] pop widget QLabel dobavkisilos2do
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,914] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,914] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,914] setting property text
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,914] setting property pixmap
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,914] push QLabel dobavkisilos5do
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,914] pop widget QLabel dobavkisilos5do
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,914] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,914] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,914] setting property text
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,914] setting property pixmap
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,914] push QLabel dobavkisilos3do
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,914] pop widget QLabel dobavkisilos3do
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,915] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,915] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,915] setting property text
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,915] setting property pixmap
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,915] push QLabel dobavkisilos3up
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,915] pop widget QLabel dobavkisilos3up
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,917] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,917] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,917] setting property text
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,917] setting property pixmap
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,917] push QLabel dobavkisilos6do
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,917] pop widget QLabel dobavkisilos6do
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,917] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,917] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,918] setting property text
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,918] setting property pixmap
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,918] push QLabel dobavkisilos5up
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,918] pop widget QLabel dobavkisilos5up
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,918] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,920] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,920] setting property text
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,920] setting property pixmap
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,920] push QLabel dobavkisilos4do
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,920] pop widget QLabel dobavkisilos4do
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,920] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,920] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,920] setting property text
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,921] setting property pixmap
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,921] push QLabel dobavkisilos4up
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,921] pop widget QLabel dobavkisilos4up
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,921] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,921] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,921] setting property text
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,921] setting property pixmap
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,921] push QLabel dobavkisilos1up
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,921] pop widget QLabel dobavkisilos1up
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,921] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,921] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,921] setting property text
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,921] setting property pixmap
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,921] push QLabel dobavkisilos2up
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,921] pop widget QLabel dobavkisilos2up
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,921] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,923] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,923] setting property frameShadow
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,923] setting property text
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,923] setting property pixmap
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,923] push QLabel flex2
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,923] pop widget QLabel flex2
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,923] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,923] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,924] setting property frameShadow
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,924] setting property text
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,924] setting property pixmap
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,924] push QLabel flex1
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,924] pop widget QLabel flex1
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,924] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,924] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,924] setting property frameShadow
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,924] setting property text
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,924] setting property pixmap
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,924] push QLabel flex3
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,924] pop widget QLabel flex3
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,924] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,924] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,924] setting property frameShadow
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,926] setting property text
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,926] setting property pixmap
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,926] push QLabel flex6
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,926] pop widget QLabel flex6
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,926] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,926] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,926] setting property frameShadow
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,926] setting property text
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,926] setting property pixmap
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,927] push QLabel flex4
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,927] pop widget QLabel flex4
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,927] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,927] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,927] setting property frameShadow
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,927] setting property text
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,927] setting property pixmap
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,927] push QLabel flex5
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,927] pop widget QLabel flex5
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,927] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,927] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,927] setting property frameShadow
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,928] setting property text
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,928] setting property pixmap
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,928] push QLabel ves3
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,930] pop widget QLabel ves3
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,930] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,930] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,930] setting property frameShadow
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,930] setting property text
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,930] setting property pixmap
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,930] push QLabel mixer
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,930] pop widget QLabel mixer
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,930] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,931] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,931] setting property frameShadow
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,931] setting property text
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,931] setting property pixmap
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,931] push QLabel ves2_2
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,933] pop widget QLabel ves2_2
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,933] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,933] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,933] setting property frameShadow
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,933] setting property text
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,933] setting property pixmap
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,934] push QLabel ves1_2
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,934] pop widget QLabel ves1_2
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,934] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,934] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,934] setting property text
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,934] setting property pixmap
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,934] push QLabel ves1bunkersens
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,934] pop widget QLabel ves1bunkersens
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,934] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,934] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,934] setting property text
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,934] setting property pixmap
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,934] push QLabel ves2bunkersens2
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,934] pop widget QLabel ves2bunkersens2
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,934] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,936] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,936] setting property text
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,936] setting property pixmap
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,936] push QLabel ves2bunkersens1
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,936] pop widget QLabel ves2bunkersens1
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,936] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,936] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,936] setting property text
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,937] setting property pixmap
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,937] push QLabel ves1shiber
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,937] pop widget QLabel ves1shiber
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,937] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,937] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,937] setting property text
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,937] setting property pixmap
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,937] push QLabel ves2shiber
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,937] pop widget QLabel ves2shiber
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,937] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,937] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,937] setting property text
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,937] setting property pixmap
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,937] push QLabel ves3shiber
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,937] pop widget QLabel ves3shiber
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,937] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,937] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,938] setting property text
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,938] setting property pixmap
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,938] push QLabel ves1sensclose
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,938] pop widget QLabel ves1sensclose
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,938] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,938] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,938] setting property text
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,940] setting property pixmap
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,940] push QLabel ves1sensopen
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,940] pop widget QLabel ves1sensopen
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,940] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,940] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,940] setting property text
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,940] setting property pixmap
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,940] push QLabel ves2sensclose
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,940] pop widget QLabel ves2sensclose
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,940] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,940] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,940] setting property text
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,940] setting property pixmap
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,941] push QLabel ves2sensopen
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,941] pop widget QLabel ves2sensopen
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,941] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,941] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,941] setting property text
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,941] setting property pixmap
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,941] push QLabel ves3sensopen
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,941] pop widget QLabel ves3sensopen
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,943] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,943] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,943] setting property text
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,943] setting property pixmap
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,943] push QLabel ves3sensclose
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,943] pop widget QLabel ves3sensclose
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,943] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,943] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,944] setting property text
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,944] setting property pixmap
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,944] push QLabel label_14
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,944] pop widget QLabel label_14
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,944] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,944] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,944] setting property text
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,944] setting property pixmap
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,944] push QLabel ves1shnek1
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,944] pop widget QLabel ves1shnek1
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,944] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,944] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,944] setting property text
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,944] setting property pixmap
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,944] push QLabel ves1shnek2
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,944] pop widget QLabel ves1shnek2
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,946] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,946] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,946] setting property text
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,946] setting property pixmap
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,946] push QLabel ves2shnek
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,946] pop widget QLabel ves2shnek
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,946] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,947] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,947] setting property text
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,947] setting property pixmap
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,947] push QLabel drobilka1
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,947] pop widget QLabel drobilka1
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,947] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,947] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,947] setting property text
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,947] setting property pixmap
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,947] push QLabel drobilka2
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,947] pop widget QLabel drobilka2
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,947] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,947] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,947] setting property text
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,947] setting property pixmap
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,950] push QLabel mixer_2
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,950] pop widget QLabel mixer_2
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,950] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,950] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,950] setting property text
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,950] setting property pixmap
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,950] push QLabel mixerbunkersens
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,950] pop widget QLabel mixerbunkersens
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,950] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,950] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,950] setting property text
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,950] setting property pixmap
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,950] push QLabel bunkermixer
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,950] pop widget QLabel bunkermixer
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,950] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,950] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,950] setting property text
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,951] setting property pixmap
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,951] push QLabel mixershnek1
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,951] pop widget QLabel mixershnek1
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,951] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,951] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,951] setting property text
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,951] setting property pixmap
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,953] push QLabel mixershnek2
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,953] pop widget QLabel mixershnek2
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,953] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,953] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,953] setting property text
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,953] setting property pixmap
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,953] push QLabel noria
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,953] pop widget QLabel noria
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,953] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,953] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,953] setting property text
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,953] setting property pixmap
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,953] push QLabel terminator1
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,953] pop widget QLabel terminator1
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,953] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,953] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,954] setting property text
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,954] setting property pixmap
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,954] push QLabel terminator2
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,954] pop widget QLabel terminator2
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,954] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,954] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,954] setting property text
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,954] setting property pixmap
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,956] push QLabel label_18
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,956] pop widget QLabel label_18
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,956] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,956] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,956] setting property text
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,956] setting property pixmap
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,957] push QLabel label_15
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,957] pop widget QLabel label_15
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,957] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,957] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,957] setting property text
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,957] setting property pixmap
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,957] setting property scaledContents
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,957] push QLabel maslonasos
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,959] pop widget QLabel maslonasos
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,959] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,959] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,959] setting property text
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,959] setting property pixmap
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,959] push QLabel zernosilos4
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,959] pop widget QLabel zernosilos4
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,960] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,960] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,960] setting property text
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,960] setting property pixmap
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,960] push QLabel zernosilos1
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,960] pop widget QLabel zernosilos1
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,960] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,960] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,960] setting property text
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,960] setting property pixmap
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,960] push QLabel zernosilos5
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,960] pop widget QLabel zernosilos5
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,960] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,960] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,961] setting property text
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,961] setting property pixmap
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,961] push QLabel zernosilos2
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,961] pop widget QLabel zernosilos2
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,961] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,961] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,963] setting property text
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,963] setting property pixmap
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,963] push QLabel zernosilos6
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,963] pop widget QLabel zernosilos6
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,963] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,963] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,963] setting property text
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,963] setting property pixmap
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,963] push QLabel zernosilos3
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,963] pop widget QLabel zernosilos3
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,963] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,963] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,963] setting property text
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,963] setting property pixmap
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,964] push QLabel zernosilos7
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,964] pop widget QLabel zernosilos7
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,964] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,964] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,964] setting property text
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,964] setting property pixmap
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,966] push QLabel zernosilos10
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,966] pop widget QLabel zernosilos10
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,966] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,966] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,966] setting property text
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,966] setting property pixmap
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,967] push QLabel zernosilos8
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,967] pop widget QLabel zernosilos8
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,967] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,967] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,967] setting property text
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,967] setting property pixmap
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,967] push QLabel zernosilos9
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,967] pop widget QLabel zernosilos9
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,967] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,967] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,967] setting property text
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,967] setting property pixmap
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,967] push QLabel siloskorm1
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,967] pop widget QLabel siloskorm1
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,967] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,967] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,969] setting property text
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,969] setting property pixmap
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,969] push QLabel siloskorm2
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,969] pop widget QLabel siloskorm2
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,969] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,969] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,969] setting property text
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,969] setting property pixmap
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,970] push QLabel siloskorm3
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,970] pop widget QLabel siloskorm3
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,970] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,970] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,970] setting property text
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,970] setting property pixmap
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,970] push QLabel siloskorm6
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,970] pop widget QLabel siloskorm6
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,970] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,970] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,970] setting property text
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,970] setting property pixmap
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,970] push QLabel siloskorm5
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,970] pop widget QLabel siloskorm5
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,970] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,970] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,971] setting property text
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,971] setting property pixmap
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,971] push QLabel siloskorm4
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,971] pop widget QLabel siloskorm4
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,971] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,971] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,971] setting property text
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,971] setting property pixmap
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,973] push QLabel silos1dobavkashiber
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,973] pop widget QLabel silos1dobavkashiber
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,973] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,973] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,973] setting property text
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,973] setting property pixmap
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,973] push QLabel silos1dobavkaopen
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,973] pop widget QLabel silos1dobavkaopen
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,973] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,973] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,973] setting property text
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,973] setting property pixmap
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,973] push QLabel silos1dobavkaclose
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,973] pop widget QLabel silos1dobavkaclose
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,973] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,974] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,974] setting property text
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,974] setting property pixmap
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,974] push QLabel silos2dobavkaclose
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,974] pop widget QLabel silos2dobavkaclose
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,974] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,974] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,974] setting property text
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,976] setting property pixmap
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,976] push QLabel silos2dobavkashiber
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,976] pop widget QLabel silos2dobavkashiber
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,976] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,976] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,976] setting property text
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,976] setting property pixmap
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,976] push QLabel silos2dobavkaopen
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,976] pop widget QLabel silos2dobavkaopen
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,976] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,976] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,976] setting property text
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,976] setting property pixmap
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,976] push QLabel silos3dobavkaclose
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,976] pop widget QLabel silos3dobavkaclose
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,977] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,977] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,977] setting property text
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,977] setting property pixmap
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,977] push QLabel silos3dobavkashiber
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,977] pop widget QLabel silos3dobavkashiber
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,977] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,977] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,979] setting property text
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,979] setting property pixmap
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,979] push QLabel silos3dobavkaopen
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,979] pop widget QLabel silos3dobavkaopen
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,979] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,979] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,979] setting property text
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,979] setting property pixmap
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,980] push QLabel silos6dobavkaopen
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,980] pop widget QLabel silos6dobavkaopen
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,980] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,980] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,980] setting property text
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,980] setting property pixmap
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,980] push QLabel silos4dobavkaclose
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,980] pop widget QLabel silos4dobavkaclose
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,980] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,982] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,982] setting property text
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,982] setting property pixmap
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,982] push QLabel silos5dobavkaclose
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,982] pop widget QLabel silos5dobavkaclose
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,982] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,982] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,983] setting property text
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,983] setting property pixmap
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,983] push QLabel silos5dobavkaopen
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,983] pop widget QLabel silos5dobavkaopen
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,983] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,983] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,983] setting property text
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,983] setting property pixmap
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,983] push QLabel silos5dobavkashiber
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,983] pop widget QLabel silos5dobavkashiber
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,983] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,983] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,983] setting property text
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,983] setting property pixmap
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,983] push QLabel silos6dobavkaclose
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,984] pop widget QLabel silos6dobavkaclose
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,984] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,984] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,984] setting property text
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,984] setting property pixmap
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,984] push QLabel silos6dobavkashiber
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,984] pop widget QLabel silos6dobavkashiber
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,984] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,986] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,986] setting property text
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,986] setting property pixmap
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,986] push QLabel silos4dobavkashiber
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,986] pop widget QLabel silos4dobavkashiber
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,986] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,986] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,986] setting property text
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,986] setting property pixmap
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,986] push QLabel silos4dobavkaopen
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,986] pop widget QLabel silos4dobavkaopen
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,986] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,986] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,986] setting property text
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,986] setting property pixmap
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,986] push QLabel silos1shiberclose
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,987] pop widget QLabel silos1shiberclose
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,987] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,987] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,987] setting property text
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,987] setting property pixmap
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,987] push QLabel silos1shiber
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,987] pop widget QLabel silos1shiber
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,987] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,989] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,989] setting property text
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,989] setting property pixmap
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,989] push QLabel silos1shiberopen
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,989] pop widget QLabel silos1shiberopen
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,989] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,990] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,990] setting property text
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,990] setting property pixmap
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,990] push QLabel silos2shiberopen
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,990] pop widget QLabel silos2shiberopen
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,990] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,990] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,990] setting property text
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,990] setting property pixmap
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,990] push QLabel silos2shiberclose
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,990] pop widget QLabel silos2shiberclose
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,990] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,990] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,990] setting property text
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,990] setting property pixmap
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,992] push QLabel silos2shiber
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,992] pop widget QLabel silos2shiber
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,992] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,992] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,992] setting property text
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,992] setting property pixmap
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,992] push QLabel silos4shiberopen
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,992] pop widget QLabel silos4shiberopen
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,993] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,993] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,993] setting property text
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,993] setting property pixmap
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,993] push QLabel silos5shiber
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,993] pop widget QLabel silos5shiber
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,993] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,993] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,993] setting property text
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,993] setting property pixmap
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,993] push QLabel silos4shiberclose
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,993] pop widget QLabel silos4shiberclose
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,993] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,993] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,993] setting property text
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,993] setting property pixmap
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,994] push QLabel silos5shiberopen
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,994] pop widget QLabel silos5shiberopen
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,994] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,994] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,994] setting property text
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,994] setting property pixmap
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,996] push QLabel silos5shiberclose
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,996] pop widget QLabel silos5shiberclose
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,996] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,996] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,996] setting property text
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,996] setting property pixmap
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,996] push QLabel silos4shiber
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,996] pop widget QLabel silos4shiber
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,997] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,997] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,997] setting property text
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:56,997] setting property pixmap
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,997] push QLabel flexload
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:56,997] pop widget QLabel flexload
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,000] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,000] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,000] setting property text
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,000] setting property pixmap
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,000] push QLabel dobavkabunkerload
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,000] pop widget QLabel dobavkabunkerload
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,000] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,000] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,000] setting property text
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,002] setting property pixmap
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,002] push QLabel bunkerloaddo
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,002] pop widget QLabel bunkerloaddo
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,002] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,002] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,002] setting property text
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,002] setting property pixmap
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,003] setting property scaledContents
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,003] push QLabel zernoshnek3_2
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,003] pop widget QLabel zernoshnek3_2
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,003] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,003] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,003] setting property text
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,003] setting property pixmap
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,003] setting property scaledContents
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,003] push QLabel zernoshnek4_2
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,003] pop widget QLabel zernoshnek4_2
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,003] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,003] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,003] setting property text
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,003] setting property pixmap
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,003] setting property scaledContents
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,005] push QLabel zernoshnek5_2
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,005] pop widget QLabel zernoshnek5_2
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,005] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,005] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,005] setting property text
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,006] setting property pixmap
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,006] setting property scaledContents
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,006] push QLabel zernoshnek6_2
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,006] pop widget QLabel zernoshnek6_2
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,006] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,006] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,006] setting property text
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,006] setting property pixmap
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,006] setting property scaledContents
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,006] push QLabel zernoshnek7_2
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,006] pop widget QLabel zernoshnek7_2
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,006] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,006] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,006] setting property text
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,006] setting property pixmap
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,006] setting property scaledContents
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,007] push QLabel zernoshnek8_2
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,007] pop widget QLabel zernoshnek8_2
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,007] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,007] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,007] setting property text
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,007] setting property pixmap
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,007] setting property scaledContents
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,007] push QLabel zernoshnek9_2
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,009] pop widget QLabel zernoshnek9_2
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,009] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,009] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,009] setting property text
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,009] setting property pixmap
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,009] setting property scaledContents
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,009] push QLabel zernoshnek10_2
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,009] pop widget QLabel zernoshnek10_2
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,009] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,009] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,009] setting property text
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,009] setting property pixmap
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,009] setting property scaledContents
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,009] push QLabel flex1_2
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,009] pop widget QLabel flex1_2
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,009] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,010] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,010] setting property text
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,010] setting property pixmap
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,010] setting property scaledContents
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,010] push QLabel flex2_2
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,010] pop widget QLabel flex2_2
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,010] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,010] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,012] setting property text
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,012] setting property pixmap
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,012] setting property scaledContents
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,012] push QLabel flex3_2
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,012] pop widget QLabel flex3_2
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,012] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,012] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,013] setting property text
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,013] setting property pixmap
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,013] setting property scaledContents
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,013] push QLabel flex4_2
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,013] pop widget QLabel flex4_2
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,013] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,013] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,013] setting property text
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,013] setting property pixmap
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,013] setting property scaledContents
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,013] push QLabel flex6_2
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,013] pop widget QLabel flex6_2
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,013] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,015] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,015] setting property text
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,015] setting property pixmap
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,015] setting property scaledContents
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,015] push QLabel flex5_2
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,015] pop widget QLabel flex5_2
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,015] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,016] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,016] setting property title
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,016] push QGroupBox groupBox
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,016] pop widget QGroupBox groupBox
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,016] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,016] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,016] setting property title
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,016] push QGroupBox groupBox_2
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,016] pop widget QGroupBox groupBox_2
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,016] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,016] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,016] setting property title
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,016] push QGroupBox groupBox_3
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,016] pop widget QGroupBox groupBox_3
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,016] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,016] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,017] setting property title
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,017] push QGroupBox groupBox_4
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,017] pop widget QGroupBox groupBox_4
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,017] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,017] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,017] setting property title
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,017] push QGroupBox groupBox_5
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,017] pop widget QGroupBox groupBox_5
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,019] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,019] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,019] setting property title
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,019] push QGroupBox groupBox_6
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,019] pop widget QGroupBox groupBox_6
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,019] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,019] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,019] setting property title
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,019] push QGroupBox groupBox_7
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,019] pop widget QGroupBox groupBox_7
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,019] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,019] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,019] setting property title
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,019] push QGroupBox groupBox_8
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,019] pop widget QGroupBox groupBox_8
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,020] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,020] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,020] setting property title
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,020] push QGroupBox groupBox_9
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,020] pop widget QGroupBox groupBox_9
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,020] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,022] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,022] setting property title
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,022] push QGroupBox groupBox_10
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,022] pop widget QGroupBox groupBox_10
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,022] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,022] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,022] setting property title
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,022] push QGroupBox groupBox_11
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,023] pop widget QGroupBox groupBox_11
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,023] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,023] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,023] setting property title
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,023] push QGroupBox groupBox_12
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,023] pop widget QGroupBox groupBox_12
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,023] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,023] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,023] setting property title
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,023] push QGroupBox groupBox_13
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,023] pop widget QGroupBox groupBox_13
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,023] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,023] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,023] setting property text
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,023] setting property pixmap
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,023] setting property scaledContents
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,025] push QLabel motorflexload
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,025] pop widget QLabel motorflexload
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,025] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,025] setting property geometry
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,025] push QLineEdit dobavkaedit1
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,025] pop widget QLineEdit dobavkaedit1
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,025] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,025] setting property geometry
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,025] push QLineEdit dobavkaedit2
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,026] pop widget QLineEdit dobavkaedit2
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,026] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,026] setting property geometry
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,026] push QLineEdit dobavkaedit3
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,026] pop widget QLineEdit dobavkaedit3
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,026] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,026] setting property geometry
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,026] push QLineEdit dobavkaedit4
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,026] pop widget QLineEdit dobavkaedit4
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,026] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,026] setting property geometry
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,026] push QLineEdit dobavkaedit5
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,026] pop widget QLineEdit dobavkaedit5
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,026] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,026] setting property geometry
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,026] push QLineEdit dobavkaedit6
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,026] pop widget QLineEdit dobavkaedit6
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,028] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,028] setting property geometry
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,028] push QLineEdit zernoedit3
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,028] pop widget QLineEdit zernoedit3
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,028] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,028] setting property geometry
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,029] push QLineEdit zernoedit4
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,029] pop widget QLineEdit zernoedit4
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,029] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,029] setting property geometry
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,029] push QLineEdit zernoedit5
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,029] pop widget QLineEdit zernoedit5
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,029] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,029] setting property geometry
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,029] push QLineEdit zernoedit6
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,029] pop widget QLineEdit zernoedit6
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,029] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,029] setting property geometry
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,029] push QLineEdit zernoedit7
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,030] pop widget QLineEdit zernoedit7
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,030] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,030] setting property geometry
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,030] push QLineEdit zernoedit8
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,030] pop widget QLineEdit zernoedit8
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,030] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,032] setting property geometry
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,032] push QLineEdit zernoedit9
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,032] pop widget QLineEdit zernoedit9
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,032] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,032] setting property geometry
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,032] push QLineEdit zernoedit10
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,032] pop widget QLineEdit zernoedit10
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,032] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,032] setting property geometry
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,032] push QLineEdit masloedit
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,032] pop widget QLineEdit masloedit
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,032] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,032] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,032] setting property text
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,032] setting property pixmap
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,033] push QLabel klapan1
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,033] pop widget QLabel klapan1
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,033] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,033] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,033] setting property text
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,033] setting property pixmap
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,035] push QLabel klapan2
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,035] pop widget QLabel klapan2
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,035] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,035] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,035] setting property font
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,035] setting property text
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,035] setting property alignment
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,036] push QLabel labelves1
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,036] pop widget QLabel labelves1
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,036] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,036] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,036] setting property font
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,036] setting property text
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,038] setting property alignment
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,038] push QLabel labelves2
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,038] pop widget QLabel labelves2
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,038] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,038] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,039] setting property font
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,039] setting property text
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,039] setting property alignment
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,039] push QLabel labelves3
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,039] pop widget QLabel labelves3
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,039] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,039] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,039] setting property text
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,039] setting property alignment
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,039] push QLabel labelbanka3
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,039] pop widget QLabel labelbanka3
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,039] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,039] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,039] setting property text
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,039] setting property alignment
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,040] push QLabel labelbanka4
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,040] pop widget QLabel labelbanka4
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,040] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,040] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,040] setting property text
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,040] setting property alignment
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,042] push QLabel labelbanka5
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,042] pop widget QLabel labelbanka5
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,042] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,042] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,042] setting property text
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,042] setting property alignment
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,042] push QLabel labelbanka6
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,042] pop widget QLabel labelbanka6
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,042] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,042] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,042] setting property text
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,042] setting property alignment
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,042] push QLabel labelbanka7
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,042] pop widget QLabel labelbanka7
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,043] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,043] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,043] setting property text
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,043] setting property alignment
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,043] push QLabel labelbanka8
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,043] pop widget QLabel labelbanka8
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,043] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,045] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,045] setting property text
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,045] setting property alignment
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,045] push QLabel labelbanka9
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,045] pop widget QLabel labelbanka9
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,046] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,046] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,046] setting property text
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,046] setting property alignment
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,046] push QLabel labelbanka10
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,046] pop widget QLabel labelbanka10
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,046] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,046] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,046] setting property text
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,046] setting property alignment
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,046] push QLabel labelbanka11
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,046] pop widget QLabel labelbanka11
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,046] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,048] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,048] setting property text
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,048] setting property alignment
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,048] push QLabel labelbanka12
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,048] pop widget QLabel labelbanka12
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,048] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,048] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,049] setting property text
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,049] setting property alignment
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,049] push QLabel labelbanka13
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,049] pop widget QLabel labelbanka13
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,049] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,049] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,049] setting property text
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,049] setting property alignment
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,049] push QLabel labelbanka14
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,049] pop widget QLabel labelbanka14
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,049] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,049] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,049] setting property text
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,049] setting property alignment
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,049] push QLabel labelbanka15
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,049] pop widget QLabel labelbanka15
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,051] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,051] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,051] setting property text
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,051] setting property alignment
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,051] push QLabel labelbanka16
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,051] pop widget QLabel labelbanka16
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,051] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,051] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,052] setting property title
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,052] push QGroupBox groupBox_14
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,052] setting property geometry
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,052] push QComboBox comboBoxRecept
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,052] pop widget QComboBox comboBoxRecept
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,052] new topwidget self.groupBox_14
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,052] setting property geometry
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,052] push QLineEdit kormneedcount
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,052] pop widget QLineEdit kormneedcount
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,052] new topwidget self.groupBox_14
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,052] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,052] setting property text
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,052] push QLabel label_2
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,053] pop widget QLabel label_2
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,053] new topwidget self.groupBox_14
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,053] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,053] setting property text
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,053] push QLabel label_3
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,055] pop widget QLabel label_3
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,055] new topwidget self.groupBox_14
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,055] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,055] setting property text
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,055] push QPushButton addtoqueuebtn
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,055] pop widget QPushButton addtoqueuebtn
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,055] new topwidget self.groupBox_14
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,055] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,055] setting property title
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,055] push QGroupBox groupBox_15
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,055] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,055] setting property lineWidth
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,055] setting property rowCount
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,055] setting property columnCount
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,055] push QTableWidget tableWidget
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,056] pop widget QTableWidget tableWidget
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,056] new topwidget self.groupBox_15
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,058] pop widget QGroupBox groupBox_15
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,058] new topwidget self.groupBox_14
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,058] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,058] setting property text
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,058] push QPushButton delbtn
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,058] pop widget QPushButton delbtn
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,058] new topwidget self.groupBox_14
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,059] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,059] setting property text
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,059] push QCheckBox checkdopdob
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,059] pop widget QCheckBox checkdopdob
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,059] new topwidget self.groupBox_14
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,059] pop widget QGroupBox groupBox_14
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,059] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,059] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,059] setting property title
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,059] push QGroupBox groupBox_16
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,059] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,059] setting property text
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,059] push QLabel labelves2readyunload
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,061] pop widget QLabel labelves2readyunload
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,061] new topwidget self.groupBox_16
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,061] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,061] setting property text
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,061] push QLabel labelves2readyload
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,061] pop widget QLabel labelves2readyload
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,061] new topwidget self.groupBox_16
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,062] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,062] setting property text
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,062] push QLabel labelmixerreadyunload
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,062] pop widget QLabel labelmixerreadyunload
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,062] new topwidget self.groupBox_16
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,062] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,062] setting property text
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,062] push QLabel labelmixerreadyload
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,062] pop widget QLabel labelmixerreadyload
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,062] new topwidget self.groupBox_16
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,062] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,062] setting property text
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,063] push QLabel labelves3readyload
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,063] pop widget QLabel labelves3readyload
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,063] new topwidget self.groupBox_16
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,075] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,076] setting property text
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,076] push QLabel labelves3readyunload
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,076] pop widget QLabel labelves3readyunload
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,076] new topwidget self.groupBox_16
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,076] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,078] setting property text
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,078] push QLabel labelnoriaready
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,078] pop widget QLabel labelnoriaready
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,078] new topwidget self.groupBox_16
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,078] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,078] setting property text
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,078] push QLabel labelmasloready
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,078] pop widget QLabel labelmasloready
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,078] new topwidget self.groupBox_16
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,078] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,078] setting property text
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,081] push QLabel labelline2readyload
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,081] pop widget QLabel labelline2readyload
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,081] new topwidget self.groupBox_16
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,081] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,081] setting property text
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,082] push QLabel labeldopdobready
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,082] pop widget QLabel labeldopdobready
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,082] new topwidget self.groupBox_16
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,082] pop widget QGroupBox groupBox_16
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,082] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,082] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,082] setting property text
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,082] setting property pixmap
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,082] push QLabel mixershiber
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,082] pop widget QLabel mixershiber
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,082] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,082] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,082] setting property text
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,082] setting property pixmap
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,082] push QLabel mixersensopen
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,082] pop widget QLabel mixersensopen
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,084] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,084] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,085] setting property text
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,085] setting property pixmap
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,085] push QLabel mixersensclose
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,085] pop widget QLabel mixersensclose
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,085] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,085] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,085] setting property title
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,085] push QGroupBox groupBox_17
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,086] pop widget QGroupBox groupBox_17
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,086] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,086] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,086] setting property text
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,086] setting property pixmap
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,088] push QLabel autokombikorm
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,088] pop widget QLabel autokombikorm
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,088] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,088] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,088] setting property text
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,088] setting property pixmap
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,088] push QLabel ruchnokombikorm
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,088] pop widget QLabel ruchnokombikorm
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,088] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,088] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,089] setting property text
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,089] setting property alignment
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,091] push QLabel labelbanka17
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,092] pop widget QLabel labelbanka17
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,092] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,092] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,092] setting property styleSheet
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,092] setting property text
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,092] push QPushButton zeroves1btn
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,094] pop widget QPushButton zeroves1btn
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,094] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,094] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,094] setting property styleSheet
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,095] setting property text
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,095] push QPushButton zeroves2btn
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,095] pop widget QPushButton zeroves2btn
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,095] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,095] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,095] setting property styleSheet
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,095] setting property text
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,095] push QPushButton zeroves3btn
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,095] pop widget QPushButton zeroves3btn
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,095] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,096] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,096] setting property title
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,096] push QGroupBox LINE2GRUOP
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,096] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,098] setting property text
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,098] push QLabel linedrobilka1
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,098] pop widget QLabel linedrobilka1
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,098] new topwidget self.LINE2GRUOP
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,098] pop widget QGroupBox LINE2GRUOP
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,098] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,098] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,098] setting property title
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,098] push QGroupBox LINE1GRUOP
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,098] pop widget QGroupBox LINE1GRUOP
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,098] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,099] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,099] setting property title
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,099] push QGroupBox VES12GRUOP
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,099] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,099] setting property text
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,101] push QLabel chastota2
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,101] pop widget QLabel chastota2
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,101] new topwidget self.VES12GRUOP
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,101] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,101] setting property text
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,101] push QLabel chastota1
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,101] pop widget QLabel chastota1
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,101] new topwidget self.VES12GRUOP
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,101] pop widget QGroupBox VES12GRUOP
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,101] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,102] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,102] setting property text
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,102] push QLabel MIXERGRUOP
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,102] pop widget QLabel MIXERGRUOP
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,102] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,104] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,104] setting property text
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,104] push QLabel VES3GRUOP
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,104] pop widget QLabel VES3GRUOP
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,104] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,105] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,105] setting property text
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,105] push QLabel NORIAGRUOP
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,105] pop widget QLabel NORIAGRUOP
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,105] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,105] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,105] setting property text
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,105] push QLabel MASLOGRUOP
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,105] pop widget QLabel MASLOGRUOP
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,107] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,107] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,107] setting property text
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,107] push QLabel label
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,108] pop widget QLabel label
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,108] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,108] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,108] setting property text
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,108] push QLabel label_4
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,108] pop widget QLabel label_4
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,108] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,108] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,108] setting property text
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,109] push QLabel masloline
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,109] pop widget QLabel masloline
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,109] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,118] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,118] setting property text
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,118] push QLabel line2shnekmixer
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,118] pop widget QLabel line2shnekmixer
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,118] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,118] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,118] setting property text
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,118] push QLabel linedrobilka2
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,118] pop widget QLabel linedrobilka2
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,118] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,124] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,124] setting property text
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,124] push QLabel lineves2
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,124] pop widget QLabel lineves2
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,124] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,125] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,125] setting property text
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,125] push QLabel lineves1
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,125] pop widget QLabel lineves1
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,125] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,125] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,125] setting property text
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,125] push QLabel lineves3
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,125] pop widget QLabel lineves3
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,125] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,125] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,127] setting property text
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,127] push QLabel lineklapan1
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,134] pop widget QLabel lineklapan1
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,134] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,134] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,142] setting property text
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,142] push QLabel lineklapan2
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,151] pop widget QLabel lineklapan2
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,151] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,151] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,151] setting property text
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,151] push QLabel linemixerbunker
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,151] pop widget QLabel linemixerbunker
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,151] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,153] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,153] setting property text
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,153] setting property pixmap
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,154] push QLabel dopdobavka
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,154] pop widget QLabel dopdobavka
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,154] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,154] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,154] setting property text
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,154] push QLabel label_6
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,154] pop widget QLabel label_6
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,154] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,155] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,155] setting property title
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,155] push QGroupBox groupBox_18
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,157] pop widget QGroupBox groupBox_18
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,157] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,157] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,157] setting property text
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,157] setting property autoDefault
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,157] push QPushButton stopbtn
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,157] pop widget QPushButton stopbtn
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,157] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,157] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,158] setting property text
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,158] push QPushButton pausebtn
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,160] pop widget QPushButton pausebtn
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,160] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,160] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,160] setting property text
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,160] push QPushButton startbtn
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,160] pop widget QPushButton startbtn
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,160] new topwidget self.centralwidget
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,161] setting property geometry
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,161] setting property font
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,161] setting property text
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,163] push QLabel connectstatuslabel
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,163] pop widget QLabel connectstatuslabel
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,163] new topwidget self.centralwidget
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,165] pop widget QWidget centralwidget
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,165] new topwidget MainWindow
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,165] push QStatusBar statusbar
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,165] pop widget QStatusBar statusbar
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,165] new topwidget MainWindow
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,167] setting property geometry
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,167] push QMenuBar menubar
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,167] setting property title
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,167] push QMenu menuMenu
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,167] pop widget QMenu menuMenu
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,167] new topwidget self.menubar
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,167] setting property title
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,168] push QMenu menu
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,168] pop widget QMenu menu
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,168] new topwidget self.menubar
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,170] setting property title
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,170] push QMenu menuoption
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,170] pop widget QMenu menuoption
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,170] new topwidget self.menubar
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,171] pop widget QMenuBar menubar
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,171] new topwidget MainWindow
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,171] setting property text
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,171] setting property text
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,171] setting property text
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,171] setting property text
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,171] setting property text
+PyQt4.uic.properties DEBUG    [2017-10-25 23:38:57,173] setting property text
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,173] pop widget QMainWindow MainWindow
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,173] new topwidget None
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,173] add action actionexit to menuMenu
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,174] add action editkorm to menu
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,174] add action editzerno to menu
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,174] add action editdobavka to menu
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,174] add action editrecept to menu
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,174] add action cal_action to menuoption
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,174] add action menuMenu to menubar
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,174] add action menu to menubar
+PyQt4.uic.uiparser DEBUG    [2017-10-25 23:38:57,174] add action menuoption to menubar
+root INFO     [2017-10-25 23:38:57,236] ========================S T A R T===================================
+root INFO     [2017-10-25 23:38:57,288] Create modbus client object
