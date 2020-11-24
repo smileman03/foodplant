@@ -3,7 +3,6 @@ import MySQLdb
 import MySQLdb.cursors
 class DB(object):
     def __init__(self, baseaddress_, user_, passw_, db_):
-
         self.db = MySQLdb.connect(host=baseaddress_, user=user_, passwd=passw_, db=db_, charset='utf8')
         # self.db = MySQLdb.connect(host="192.168.17.192", user="oper", passwd="Adelante", db="kormoceh4", charset='utf8')
         self.idlastuser = 1
@@ -47,13 +46,12 @@ class DB(object):
         self.cursor.execute(self.sql)
         return self.cursor.fetchall()
     def getreceptnamelist(self):
-        cursor = self.db.cursor()
-        cursor.execute("""SELECT nRec,nProduct FROM `recept` WHERE bActive = 1 """)
+        self.cursor = self.db.cursor()
+        self.cursor.execute("""SELECT nRec,nProduct FROM `recept` WHERE bActive = 1 """)
         somedict = {}
-        for items in cursor.fetchall():
+        for items in self.cursor.fetchall():
             somedict[int(items[0])] = int(items[1])
         return somedict
-
     def getreceptlist(self,idrecept): # return id recept by name idkorm
         cursor = self.db.cursor()
             # print idkorm[0]
@@ -63,7 +61,6 @@ class DB(object):
         for items in cursor.fetchall():
             somedict[str(items[0])] = items[1]
         return  somedict
-
     def getzakazdet_list(self,nreczakaz):
         cursor = self.db.cursor()
         cursor.execute("""SELECT nProduct,Val FROM zakaz_det WHERE nZakaz = %s""",(nreczakaz,))
@@ -72,13 +69,12 @@ class DB(object):
         for items in cursor.fetchall():
             somedict[str(items[0])] = items[1]
         return somedict
-
     def getzakazdet(self,nrec):
         dict_={}
         cursor = self.db.cursor()
         cursor.execute("""SELECT nProduct,Fact FROM zakaz_det WHERE nzakaz = %s""", (nrec,))
         result = cursor.fetchall()
-        print "nzakaz "+str(nrec)
+        print ("nzakaz "+str(nrec))
         for items in result:
             dict_[int(items[0])] = items[1]
         return dict_
@@ -93,8 +89,6 @@ class DB(object):
         id_korm = self.get_id_product(namekorm)
         cursor.execute("""SELECT nRec FROM `recept` WHERE NProduct = %s and bActive = 1""", (id_korm,))
         return cursor.fetchall()[0]
-
-
     def get_bunker(self,id_ingridient):  # Получить номер банки по Id продукта(Зерно =1, Добавки=2, Комбикорм=3, Масло=4)
         self.cursor = self.db.cursor()
         # self.sql = """SELECT Name FROM bunker WHERE nGrp_Bunker=""" + str(id_ingridient)
@@ -130,8 +124,6 @@ class DB(object):
         cursor = self.db.cursor()
         cursor.execute("""SELECT NAME FROM `product` WHERE nRec = %s""",(nrec,))
         return cursor.fetchall()
-
-
     def save_product(self, id_banka, id_product):
         cursor = self.db.cursor()
         # print id_banka
@@ -248,12 +240,9 @@ class DB(object):
             return 0
         else:
             return 1
-
-
-
     def changerecept(self,oldnrec,receptlist):
         cursor = self.db.cursor()
-        print "oldnrec "+str(oldnrec)
+        print ("oldnrec "+str(oldnrec))
         cursor.execute("""UPDATE recept SET bActive=0 WHERE nRec=%s""", (str(oldnrec),))
         self.db.commit()
         cursor.execute(("""INSERT INTO recept (Last_User,name, nProduct, val) SELECT %s,name, nProduct, val FROM recept WHERE nRec=%s"""),(1,oldnrec,))
@@ -261,13 +250,13 @@ class DB(object):
         cursor.execute("""SELECT nRec FROM recept order by nRec DESC LIMIT 1""")
         newnrec = cursor.fetchall()[0]
         for key in receptlist:
-            print "newnrec "+str(newnrec[0])
-            print "num product "+(key)
-            print "value "+str(receptlist[key])
+            print ("newnrec "+str(newnrec[0]))
+            print("num product "+(key))
+            print("value "+str(receptlist[key]))
             cursor.execute("INSERT INTO recept_det SET nRecept=%s, nProduct=%s, val=%s",(newnrec[0], key, receptlist[key],))
             self.db.commit()
     def register_zakaz_det(self,nreczakaz,nbunker,koef,nrecrecept,factval):
-        print u"register_zakaz nreczakaz = {nreczakaz}, nrecrecept = {nrecrecept}, koef={koef}, nbunker={nbunker}, factval={factval}".format(nreczakaz=nreczakaz,nrecrecept=nrecrecept,koef=koef, nbunker=nbunker,factval=factval)
+        print (u"register_zakaz nreczakaz = {nreczakaz}, nrecrecept = {nrecrecept}, koef={koef}, nbunker={nbunker}, factval={factval}".format(nreczakaz=nreczakaz,nrecrecept=nrecrecept,koef=koef, nbunker=nbunker,factval=factval))
         nprod = self.get_product(nbunker)[0]
         cursor = self.db.cursor()
         err_=0
@@ -276,7 +265,7 @@ class DB(object):
         # try:
         #cursor.execute("INSERT INTO zakaz_det (nZakaz, nProduct, nBunker, Val,Fact) SELECT %s, nProduct, %s, Val*%s,%s FROM recept_det WHERE nRecept=%s",(nreczakaz, nbunker, koef, factval,nrecrecept,))
 
-        print u"nrecproduct={nprod}".format(nprod=nprod)
+        print( u"nrecproduct={nprod}".format(nprod=nprod))
         cursor.execute("INSERT INTO zakaz_det (nZakaz, nProduct, nBunker, Val,Fact) SELECT %s, nProduct, %s, Val*%s,%s FROM recept_det WHERE nRecept=%s and nProduct=%s",(nreczakaz, nbunker, koef, factval, nrecrecept, nprod,))
         self.db.commit()
         err_ = self.register_zames_fact(nreczakaz,factval)
@@ -285,15 +274,14 @@ class DB(object):
         #     err_=err
         #
         # return err_
-
     def register_zames_fact(self,nzakaz,val):
         cursor = self.db.cursor()
         err_=0
         cursor.execute( "SELECT Fact FROM zakaz WHERE nRec=%s",(nzakaz,))
         sumFact = int(cursor.fetchall()[0][0])
-        print u"1.sumFact = {val}".format(val=sumFact)
+        print (u"1.sumFact = {val}".format(val=sumFact))
         sumFact += val
-        print u"2.sumFact ={vl}".format(vl=sumFact)
+        print (u"2.sumFact ={vl}".format(vl=sumFact))
         try:
             cursor.execute( "UPDATE  zakaz SET Fact = %s WHERE nRec=%s",(sumFact,nzakaz,))
             self.db.commit()
@@ -301,14 +289,12 @@ class DB(object):
             err_=err
         finally:
             return err_
-
     def zakaz_complete(self,nreczakaz):
 
         cursor = self.db.cursor()
         cursor.execute("""UPDATE zakaz SET Status=1 WHERE nRec=%s""", (nreczakaz,))
         # cursor.execute("INSERT INTO oborot (Last_User,nZakaz, nProduct, nBunker, Val) SELECT %s,%s, %s, nBunker, %s FROM zakaz WHERE nRecept=%s",(self.idlastuser,nreczakaz, nrecproduct, val, nrecrecept))
         self.db.commit()
-
     def getlastzakaz_tofinish(self): # получить последний незавершенный заказ
         cursor = self.db.cursor()
         countrec = cursor.execute("""SELECT nRec FROM zakaz order by `Last_Date` desc limit 1""")
@@ -316,7 +302,6 @@ class DB(object):
             return cursor.fetchall()[0][0]
         else:
             return None
-
     def save_modbus(self,list_):
         cursor = self.db.cursor()
         err_ = 0
@@ -341,8 +326,6 @@ class DB(object):
         except Exception as err:
             return None
         return list_
-
-
     def set_notactive(self):
         cursor = self.db.cursor()
         try:

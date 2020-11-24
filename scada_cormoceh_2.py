@@ -196,7 +196,7 @@ def saverecept2ini(dict):
     parser_.read(receptinifile)
     parser_.add_section(dict["namekorm"])
     for key in dict.keys():
-        print dict.get(key)
+        print (dict.get(key))
         parser_.set(dict["namekorm"], key, str(dict.get(key)).encode('utf8'))
     parser_.write(receptinifile)
     receptinifile.truncate()
@@ -308,7 +308,7 @@ class Dialog_zerno(QDialog, Ui_Dialog_Zerno):
 
         for i in range(1, 11):
             zerno_[i] = self.dbclient.get_product(i)
-            print str(zerno_[i][0]) + " " + zerno_[i][1]  # zerno[0] - nRec zerno[1] - Name
+            print(str(zerno_[i][0]) + " " + zerno_[i][1])  # zerno[0] - nRec zerno[1] - Name
 
         # self.comboboxlist=range(10)
         # self.comboboxlist.insert(1, self.ui.combo1)
@@ -364,10 +364,10 @@ class Dialog_zerno(QDialog, Ui_Dialog_Zerno):
         self.connect(self.combolist[9], QtCore.SIGNAL("currentIndexChanged(const QString&)"),lambda: self.comboslot(9))  # lambda who=i: self.comboslot(who)
         self.connect(self.combolist[10], QtCore.SIGNAL("currentIndexChanged(const QString&)"),lambda: self.comboslot(10))  # lambda who=i: self.comboslot(who)
     def comboslot(self,i):
-        print "Силос <ЗЕРНО>  №"+str(i)
+        print("Силос <ЗЕРНО>  №"+str(i))
         self.labellist[i].setText(self.combolist[i].currentText())
     def btnapplyclk(self):
-        print "Сохранение изменений!"
+        print("Сохранение изменений!")
         # print unicode(self.ui.labelbanka1.text())
         for i in range(1,11):
             nameprod = unicode(self.labellist[i].text())
@@ -518,7 +518,7 @@ class mbclient(object):
     def checkconnecttcp(self):
         if not self.client.is_open():
             logging.info(str(datetime.datetime.now())+'!!!!!!!!!!!! No connection !!!!!!!!!!!!!!!')
-            print str(datetime.datetime.now())+('!!!!!!!!!!!! No connection !!!!!!!!!!!!!!!')
+            print(str(datetime.datetime.now())+('!!!!!!!!!!!! No connection !!!!!!!!!!!!!!!'))
             self.connect()
         else:
             # print "Ok connection"
@@ -538,7 +538,7 @@ class mbclient(object):
                 # self.client.auto_open()
                 # wait(self)
             except Exception as err:
-                print str(datetime.datetime.now())+"--Ошибка подключения "+ str(err)
+                print (str(datetime.datetime.now())+"--Ошибка подключения "+ str(err))
                 logging.error(traceback.format_exc())
 
         # print self.client.__sock
@@ -559,7 +559,7 @@ class mbclient(object):
                 takeover(self)
                 is_Ok=self.client.write_single_register(rgadr, val)
             except Exception as err:
-                print  str(datetime.datetime.now())+"--Ошибка записи регистра с номером : " + str(rgadr) + " Ошибка:"+str(err)
+                print (str(datetime.datetime.now())+"--Ошибка записи регистра с номером : " + str(rgadr) + " Ошибка:"+str(err))
                 logging.error(traceback.format_exc())
             finally:
                 free(self)
@@ -575,7 +575,7 @@ class mbclient(object):
         try:
             result = self.client.read_holding_registers(rgadr, 1)
         except Exception as err:
-            print str(datetime.datetime.now())+"--Ошибка чтения регистра " + str(err)
+            print (str(datetime.datetime.now())+"--Ошибка чтения регистра " + str(err))
             logging.error(traceback.format_exc())
         finally:
             free(self)
@@ -595,7 +595,7 @@ class mbclient(object):
         try:
             incoil = self.client.read_coils(bit, 1)
         except (AttributeError, TypeError, self.client.last_error()):
-            print self.client.last_error() + "Error read coil with number " + str(bit)
+            print (self.client.last_error() + "Error read coil with number " + str(bit))
             # free(self)
             # return False
         free(self)
@@ -717,7 +717,7 @@ class PLC(object):
             answer = mbclient.read(0) & 0x00FF
             delay(10000)
             if answer == 0:
-                print str(datetime.datetime.now())+"--answer" + str(answer)
+                print (str(datetime.datetime.now())+"--answer" + str(answer))
                 break
                 # rg = mbclient.read(0)
 
@@ -739,7 +739,7 @@ class ThreadPullPLCList(QtCore.QObject):
         QtCore.QObject.__init__(self)
 
     def process(self):
-        print str(datetime.datetime.now())+"--+thread ThreadPullPLCList started"
+        print (str(datetime.datetime.now())+"--+thread ThreadPullPLCList started")
         while self._isRunning is True:
             listcoillocal_ = range(100)
             listweightzernolocal_ = range(10)
@@ -757,7 +757,7 @@ class ThreadPullPLCList(QtCore.QObject):
                     listcoillocal_.insert(i * 16 + j, getbit(plcglobal.listplcrg16.getelement(i + OFFSETflagstate), j))
             plcglobal.listplccoils.pull(listcoillocal_)
             # plcglobal.get_state()
-        print str(datetime.datetime.now())+"---thread ThreadPullPLCList done"
+        print (str(datetime.datetime.now())+"---thread ThreadPullPLCList done")
         self.finished.emit()
 
         def stop(self):
@@ -772,7 +772,7 @@ class ThreadGetPLC(QtCore.QObject):
         QtCore.QObject.__init__(self)
 
     def process(self):
-        print str(datetime.datetime.now())+"--+thread ThreadGetPLC started"
+        print (str(datetime.datetime.now())+"--+thread ThreadGetPLC started")
         while self._isRunning is True:
             # mbclient.checkconnecttcp()
             listrg16local_ = range(LASTREGADDR + 1)
