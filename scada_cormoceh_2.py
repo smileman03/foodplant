@@ -782,9 +782,9 @@ class ThreadGetPLC(QtCore.QObject):
                 try:
                     listrg16local_.insert(i, mbclient.read(i))
                 except Exception as err:
-                    print str(datetime.datetime.now())+"--Error in ThreadGetPLC "+str(err)
+                    print (str(datetime.datetime.now())+"--Error in ThreadGetPLC "+str(err))
             plcglobal.listplcrg16.pull(listrg16local_)
-        print str(datetime.datetime.now())+"---thread ThreadGetPLC done"
+        print (str(datetime.datetime.now())+"---thread ThreadGetPLC done")
 
     def stop(self):
         self._isRunning = False
@@ -801,7 +801,7 @@ class ThreadVisual1Level(QtCore.QObject):
         self.plc = plc
 
     def process(self):
-        print str(datetime.datetime.now())+"--+thread ThreadVisual1Level started"
+        print (str(datetime.datetime.now())+"--+thread ThreadVisual1Level started")
         while self._isRunning is True:
 
             for i in range(0, 109 + 1):
@@ -829,7 +829,7 @@ class ThreadVisual1Level(QtCore.QObject):
                     else:
                         plcglobal.recept.nowkormnumbanka = 6
 
-        print str(datetime.datetime.now())+'---thread ThreadVisual1Level FINISHED'
+        print(str(datetime.datetime.now())+'---thread ThreadVisual1Level FINISHED')
         self.finished.emit()
 
     def stop(self):
@@ -842,12 +842,12 @@ class ThreadVizual2level(QtCore.QObject):  # визулизация шиберо
 
     @QtCore.pyqtSlot()
     def process(self):
-        print str(datetime.datetime.now())+"--+thread ThreadVizual2level started"
+        print (str(datetime.datetime.now())+"--+thread ThreadVizual2level started")
         while self._isRunning is True:
             self.s3.emit()
             delay(10000)
             # print 'FINISHED'
-        print str(datetime.datetime.now())+"--+thread ThreadVizual2level done"
+        print (str(datetime.datetime.now())+"--+thread ThreadVizual2level done")
         self.finished.emit()
 
     def stop(self):
@@ -897,7 +897,7 @@ class ThreadSendCmd(QtCore.QObject):
 
     @QtCore.pyqtSlot()
     def process(self):
-        print str(datetime.datetime.now())+"--+thread ThreadSendCmd started  cmd= " + str(self.cmd)
+        print (str(datetime.datetime.now())+"--+thread ThreadSendCmd started  cmd= " + str(self.cmd))
         plcglobal.waitret()
         plcglobal.send_cmd(self.cmd)
         self.finished.emit()
