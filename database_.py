@@ -22,7 +22,7 @@ class DB(object):
         cursor.execute("""SELECT nRec,Name FROM product where nGrp_Product=%s""",(id,))
         dict_={}
         for items in cursor.fetchall():
-            dict_[str(items[0])] = unicode(items[1])
+            dict_[str(items[0])] = (items[1])
         return dict_
     def get_listdozakaz(self):
         cursor = self.db.cursor()
@@ -116,7 +116,7 @@ class DB(object):
             for row in self.cursor.fetchall():
                 pass
         else:
-            row = range(2)
+            row = [None]*2
             row[0] = " "
             row[1] = u"На ремонте"
         return row  # row[0] - nRec row[1] - Name

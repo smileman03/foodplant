@@ -64,7 +64,7 @@ class CONFIG:
     ERROR_READ_INI = False
     ipaddrdb = 'localhost'
     namedb = 'kormoceh5'
-    ipaddrplc = '10.0.6.98'
+    ipaddrplc = '192.168.1.100'
     portplc = '502'
     parser = ConfigParser()
     # parser = ConfigParser.SafeConfigParser()
@@ -96,8 +96,8 @@ class Dialog_recept(QDialog, Ui_Dialog_recept):
         self.pull_listwidget_korm()
         self.ui.listwidgetkorm.itemClicked.connect(self.itemclicked)
         self.ui.tablerecept.setColumnWidth(0, 265)
-        self.ui.tablerecept.setHorizontalHeaderItem(0, QtGui.QTableWidgetItem(u"Наименование продукта"))
-        self.ui.tablerecept.setHorizontalHeaderItem(1, QtGui.QTableWidgetItem(u"Кол-во"))
+        self.ui.tablerecept.setHorizontalHeaderItem(0, QtWidgets.QTableWidgetItem(u"Наименование продукта"))
+        self.ui.tablerecept.setHorizontalHeaderItem(1,QtWidgets.QTableWidgetItem(u"Кол-во"))
         self.ui.btnaddzerno.clicked.connect(self.btnaddzernoclk)
         self.ui.btnadddobavka.clicked.connect(self.btnadddobavkaclk)
         self.pull_combozerno()
@@ -166,8 +166,8 @@ class Dialog_recept(QDialog, Ui_Dialog_recept):
             nameprod = (self.dbclient.get_productname(key))
             rowPosition = self.ui.tablerecept.rowCount()
             self.ui.tablerecept.insertRow(rowPosition)
-            self.ui.tablerecept.setItem(rowPosition, 0, QtGui.QTableWidgetItem(nameprod[0][0]))
-            self.ui.tablerecept.setItem(rowPosition, 1, QtGui.QTableWidgetItem(str(self.receptlist[key])))
+            self.ui.tablerecept.setItem(rowPosition, 0, QtWidgets.QTableWidgetItem(nameprod[0][0]))
+            self.ui.tablerecept.setItem(rowPosition, 1, QtWidgets.QTableWidgetItem(str(self.receptlist[key])))
             allweight += self.receptlist[key]
         self.ui.label_allweight.setText(u"Общий вес: "+str(allweight)+u"кг")
     def btnaddzernoclk(self):
@@ -382,7 +382,7 @@ class Dialog_zerno(QDialog, Ui_Dialog_Zerno):
         # for row in get_product():
         #     print row[3]
         #     self.combozerno.addItem(row[3])
-        self.zerno_ = range(20)
+        self.zerno_ = [None]*20
         self.dbclient = dbclient
         self.ui.savebankabtn.clicked.connect(self.btnapplyclk)
 
@@ -411,7 +411,7 @@ class Dialog_zerno(QDialog, Ui_Dialog_Zerno):
         #     for i in range(1,11):
         #         self.comboboxlist[i].addItem(row[1])
 
-        self.labellist = range(10)
+        self.labellist = [None]*10
         self.labellist.insert(1, self.ui.labelbanka1)
         self.labellist.insert(2, self.ui.labelbanka2)
         self.labellist.insert(3, self.ui.labelbanka3)
@@ -422,7 +422,7 @@ class Dialog_zerno(QDialog, Ui_Dialog_Zerno):
         self.labellist.insert(8, self.ui.labelbanka8)
         self.labellist.insert(9, self.ui.labelbanka9)
         self.labellist.insert(10, self.ui.labelbanka10)
-        self.combolist = range(10)
+        self.combolist = [None]*10
         self.combolist.insert(1, self.ui.comboBox_1)
         self.combolist.insert(2, self.ui.comboBox_2)
         self.combolist.insert(3, self.ui.comboBox_3)
@@ -445,27 +445,16 @@ class Dialog_zerno(QDialog, Ui_Dialog_Zerno):
             if index >= 0:
                  self.combolist[i].setCurrentIndex(index)
 
-
-        self.connect(self.combolist[1], QtCore.SIGNAL("currentIndexChanged(const  QString&)"),
-                     lambda: self.comboslot(1))  # lambda who=i: self.comboslot(who)
-        self.connect(self.combolist[2], QtCore.SIGNAL("currentIndexChanged(const QString&)"),
-                     lambda: self.comboslot(2))  # lambda who=i: self.comboslot(who)
-        self.connect(self.combolist[3], QtCore.SIGNAL("currentIndexChanged(const QString&)"),
-                     lambda: self.comboslot(3))  # lambda who=i: self.comboslot(who)
-        self.connect(self.combolist[4], QtCore.SIGNAL("currentIndexChanged(const QString&)"),
-                     lambda: self.comboslot(4))  # lambda who=i: self.comboslot(who)
-        self.connect(self.combolist[5], QtCore.SIGNAL("currentIndexChanged(const QString&)"),
-                     lambda: self.comboslot(5))  # lambda who=i: self.comboslot(who)
-        self.connect(self.combolist[6], QtCore.SIGNAL("currentIndexChanged(const QString&)"),
-                     lambda: self.comboslot(6))  # lambda who=i: self.comboslot(who)
-        self.connect(self.combolist[7], QtCore.SIGNAL("currentIndexChanged(const QString&)"),
-                     lambda: self.comboslot(7))  # lambda who=i: self.comboslot(who)
-        self.connect(self.combolist[8], QtCore.SIGNAL("currentIndexChanged(const QString&)"),
-                     lambda: self.comboslot(8))  # lambda who=i: self.comboslot(who)
-        self.connect(self.combolist[9], QtCore.SIGNAL("currentIndexChanged(const QString&)"),
-                     lambda: self.comboslot(9))  # lambda who=i: self.comboslot(who)
-        self.connect(self.combolist[10], QtCore.SIGNAL("currentIndexChanged(const QString&)"),
-                     lambda: self.comboslot(10))  # lambda who=i: self.comboslot(who)
+        self.combolist[1].currentIndexChanged.connect( lambda: self.comboslot(1))
+        self.combolist[2].currentIndexChanged.connect(lambda: self.comboslot(2))
+        self.combolist[3].currentIndexChanged.connect(lambda: self.comboslot(3))
+        self.combolist[4].currentIndexChanged.connect(lambda: self.comboslot(4))
+        self.combolist[5].currentIndexChanged.connect(lambda: self.comboslot(5))
+        self.combolist[6].currentIndexChanged.connect(lambda: self.comboslot(6))
+        self.combolist[7].currentIndexChanged.connect(lambda: self.comboslot(7))
+        self.combolist[8].currentIndexChanged.connect(lambda: self.comboslot(8))
+        self.combolist[9].currentIndexChanged.connect(lambda: self.comboslot(9))
+        self.combolist[10].currentIndexChanged.connect(lambda: self.comboslot(10))
     def comboslot(self, i):
         try:
             print ("Силос <ЗЕРНО>  №" + str(i))
@@ -504,21 +493,6 @@ class Dialog_dobavka(QDialog, Ui_Dialog_Dobavka):
         for i in range(1, 7):
             self.dobavka[i] = self.dbclient.get_product(i + 10)
             print (str(self.dobavka[i][0]) + " " + self.dobavka[i][1] ) # dobavka[0] - nRec dobavka[1] - Name
-
-        # self.comboboxlist=range(10)
-        # self.comboboxlist.insert(1, self.ui.combo1)
-        # self.comboboxlist.insert(2, self.ui.combo2)
-        # self.comboboxlist.insert(3, self.ui.combo3)
-        # self.comboboxlist.insert(4, self.ui.combo4)
-        # self.comboboxlist.insert(5, self.ui.combo5)
-        # self.comboboxlist.insert(6, self.ui.combo6)
-        # self.comboboxlist.insert(7, self.ui.combo7)
-        # self.comboboxlist.insert(8, self.ui.combo8)
-        # self.comboboxlist.insert(9, self.ui.combo9)
-        # self.comboboxlist.insert(10, self.ui.combo10)
-        # for row in dbclient.get_zerno():
-        #     for i in range(1,11):
-        #         self.comboboxlist[i].addItem(row[1])
 
         self.labellist = [None] * 10
         self.labellist.insert(1, self.ui.labelbanka1)
@@ -567,7 +541,7 @@ class Dialog_korm(QDialog, Ui_Dialog_Korm):
         QDialog.__init__(self)
         self.ui = Ui_Dialog_Korm()
         self.ui.setupUi(self)
-        self.korm = range(12)
+        self.korm = [None]*12
         self.dbclient = dbclient
         self.ui.savebankabtn.clicked.connect(self.btnapplyclk)
 
@@ -590,7 +564,7 @@ class Dialog_korm(QDialog, Ui_Dialog_Korm):
         #     for i in range(1,11):
         #         self.comboboxlist[i].addItem(row[1])
 
-        self.labellist = range(10)
+        self.labellist = [None]*10
         self.labellist.insert(1, self.ui.labelbanka1)
         self.labellist.insert(2, self.ui.labelbanka2)
         self.labellist.insert(3, self.ui.labelbanka3)
@@ -598,7 +572,7 @@ class Dialog_korm(QDialog, Ui_Dialog_Korm):
         self.labellist.insert(5, self.ui.labelbanka5)
         self.labellist.insert(6, self.ui.labelbanka6)
 
-        self.combolist = range(10)
+        self.combolist = [None]*10
         self.combolist.insert(1, self.ui.comboBox_1)
         self.combolist.insert(2, self.ui.comboBox_2)
         self.combolist.insert(3, self.ui.comboBox_3)
@@ -611,18 +585,14 @@ class Dialog_korm(QDialog, Ui_Dialog_Korm):
         for row in dbclient.get_korm():
             for i in range(1, 7):
                 self.combolist[i].addItem(row[1])
-        self.connect(self.combolist[1], QtCore.SIGNAL("currentIndexChanged(const  QString&)"),
-                     lambda: self.comboslot(1))  # lambda who=i: self.comboslot(who)
-        self.connect(self.combolist[2], QtCore.SIGNAL("currentIndexChanged(const QString&)"),
-                     lambda: self.comboslot(2))  # lambda who=i: self.comboslot(who)
-        self.connect(self.combolist[3], QtCore.SIGNAL("currentIndexChanged(const QString&)"),
-                     lambda: self.comboslot(3))  # lambda who=i: self.comboslot(who)
-        self.connect(self.combolist[4], QtCore.SIGNAL("currentIndexChanged(const QString&)"),
-                     lambda: self.comboslot(4))  # lambda who=i: self.comboslot(who)
-        self.connect(self.combolist[5], QtCore.SIGNAL("currentIndexChanged(const QString&)"),
-                     lambda: self.comboslot(5))  # lambda who=i: self.comboslot(who)
-        self.connect(self.combolist[6], QtCore.SIGNAL("currentIndexChanged(const QString&)"),
-                     lambda: self.comboslot(6))  # lambda who=i: self.comboslot(who)
+
+        self.combolist[1].currentIndexChanged.connect(lambda: self.comboslot(1))
+        self.combolist[2].currentIndexChanged.connect(lambda: self.comboslot(2))
+        self.combolist[3].currentIndexChanged.connect(lambda: self.comboslot(3))
+        self.combolist[4].currentIndexChanged.connect(lambda: self.comboslot(4))
+        self.combolist[5].currentIndexChanged.connect(lambda: self.comboslot(5))
+        self.combolist[6].currentIndexChanged.connect(lambda: self.comboslot(6))
+
 
     def comboslot(self, i):
         print (u"Силос <Корм>  №" + str(i))
@@ -946,7 +916,7 @@ class plclist(object):
 
         self.busy = False
         self.init = False
-        self.list = range(count)
+        self.list = [None]*count
     def reinit(self):
         wait(self)
         takeover(self)
@@ -1425,7 +1395,7 @@ class PLC(object):
         self.chastotaves1=0
         self.chastotaves2=0
         self.VESMAX = VESMAX
-        self.shibers = range(4)
+        self.shibers = [None]*4
         self.newerror = 0
         self.lasterror = 0
         self.weight1 = 0
@@ -1625,7 +1595,7 @@ class ThreadGetPLC(QtCore.QObject):
         writedebug(u"--+thread ThreadGetPLC started")
         while self._isRunning is True:
             # mbclient.checkconnecttcp()
-            listrg16local_ = range(LASTREGADDR + 1)
+            listrg16local_ = [None]*(LASTREGADDR + 1)
 
             time.sleep(0.6)
             if plcglobal.pauseread != True:
@@ -3585,7 +3555,7 @@ class MyApp(QMainWindow,Ui_MainWindow):
                 plcglobal.recept.dopdobavka = True
             else:
                 plcglobal.recept.dopdobavka = False
-            list_ = range(15)
+            list_ = [None]*15
 
             list_.insert(0, int(current_recept.get('zerno3')))
             list_.insert(1, int(current_recept.get('zerno4')))
