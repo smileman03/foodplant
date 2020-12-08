@@ -41,7 +41,16 @@ from PyQt5.QtWidgets import QApplication, QWidget, QPushButton, QLabel, QDialog
 from PyQt5.QtCore import *
 from PyQt5.QtWidgets import *
 from PyQt5.QtGui import *
+sys._excepthook = sys.excepthook
+def my_exception_hook(exctype, value, traceback):
+    # Print the error and traceback
+    print(exctype, value, traceback)
+    # Call the normal Exception hook after
+    sys._excepthook(exctype, value, traceback)
+    sys.exit(1)
 
+# Set the exception hook to our wrapping function
+sys.excepthook = my_exception_hook
 
 # from PyQt5 import QtCore, QtGui, QtWidgets
 logging.basicConfig(format=u'%(name)s %(levelname)-8s [%(asctime)s] %(message)s', level=logging.DEBUG, filename=u'cormoceh.log')
@@ -300,7 +309,7 @@ class Dialog_dozakaz(QDialog,Ui_Dialog_dozakaz):
 
         # print unicode(item0.text())+u" "+unicode(item1.text())
         nrec = 0
-        for nrec,listname in self.zakazlist.iteritems():
+        for nrec,listname in self.zakazlist.items():
             if listname == list_:
                 print ("nrec = "+str(nrec))
                 print (listname)
@@ -487,9 +496,10 @@ class Dialog_dobavka(QDialog, Ui_Dialog_Dobavka):
         QDialog.__init__(self)
         self.ui = Ui_Dialog_Dobavka()
         self.ui.setupUi(self)
-        self.dobavka = range(12)
+        self.dobavka = [None] * 12
         self.dbclient = dbclient
-        self.ui.savebankabtn.clicked.connect(self.btnapplyclk)
+        btn1 = self.ui.savebankabtn
+        btn1.clicked.connect(self.btnapplyclk)
 
         for i in range(1, 7):
             self.dobavka[i] = self.dbclient.get_product(i + 10)
@@ -510,7 +520,7 @@ class Dialog_dobavka(QDialog, Ui_Dialog_Dobavka):
         #     for i in range(1,11):
         #         self.comboboxlist[i].addItem(row[1])
 
-        self.labellist = range(10)
+        self.labellist = [None] * 10
         self.labellist.insert(1, self.ui.labelbanka1)
         self.labellist.insert(2, self.ui.labelbanka2)
         self.labellist.insert(3, self.ui.labelbanka3)
@@ -518,7 +528,7 @@ class Dialog_dobavka(QDialog, Ui_Dialog_Dobavka):
         self.labellist.insert(5, self.ui.labelbanka5)
         self.labellist.insert(6, self.ui.labelbanka6)
 
-        self.combolist = range(10)
+        self.combolist = [None] * 10
         self.combolist.insert(1, self.ui.comboBox_1)
         self.combolist.insert(2, self.ui.comboBox_2)
         self.combolist.insert(3, self.ui.comboBox_3)
@@ -531,18 +541,13 @@ class Dialog_dobavka(QDialog, Ui_Dialog_Dobavka):
         for row in dbclient.get_dobavka():
             for i in range(1, 7):
                 self.combolist[i].addItem(row[1])
-        self.connect(self.combolist[1], QtCore.SIGNAL("currentIndexChanged(const  QString&)"),
-                     lambda: self.comboslot(1))  # lambda who=i: self.comboslot(who)
-        self.connect(self.combolist[2], QtCore.SIGNAL("currentIndexChanged(const QString&)"),
-                     lambda: self.comboslot(2))  # lambda who=i: self.comboslot(who)
-        self.connect(self.combolist[3], QtCore.SIGNAL("currentIndexChanged(const QString&)"),
-                     lambda: self.comboslot(3))  # lambda who=i: self.comboslot(who)
-        self.connect(self.combolist[4], QtCore.SIGNAL("currentIndexChanged(const QString&)"),
-                     lambda: self.comboslot(4))  # lambda who=i: self.comboslot(who)
-        self.connect(self.combolist[5], QtCore.SIGNAL("currentIndexChanged(const QString&)"),
-                     lambda: self.comboslot(5))  # lambda who=i: self.comboslot(who)
-        self.connect(self.combolist[6], QtCore.SIGNAL("currentIndexChanged(const QString&)"),
-                     lambda: self.comboslot(6))  # lambda who=i: self.comboslot(who)
+
+        self.combolist[1].currentIndexChanged.connect(  lambda:self.comboslot(1))# lambda who=i: self.comboslot(who)
+        self.combolist[2].currentIndexChanged.connect(lambda: self.comboslot(2))  # lambda who=i: self.comboslot(who)
+        self.combolist[3].currentIndexChanged.connect(lambda: self.comboslot(3))  # lambda who=i: self.comboslot(who)
+        self.combolist[4].currentIndexChanged.connect(lambda: self.comboslot(4))  # lambda who=i: self.comboslot(who)
+        self.combolist[5].currentIndexChanged.connect(lambda: self.comboslot(5))  # lambda who=i: self.comboslot(who)
+        self.combolist[6].currentIndexChanged.connect(lambda: self.comboslot(6))  # lambda who=i: self.comboslot(who)
 
     def comboslot(self, i):
         print ("Изменение на - Силос <Добавка>  №" + str(i))
@@ -723,7 +728,7 @@ def delay(tick):
     for i in range(0, tick):
         pass
 def getbit(reg16, indexbit):
-    if reg16 & (1 << int(indexbit)) is not 0:
+    if reg16 & (1 << int(indexbit)) != 0:
         return 1
     else:
         return 0
@@ -770,7 +775,7 @@ class obj(QtCore.QObject):
         self.imgtrue = imgtrue
         self.qtobj = object
         self.flaginverslogic = flaginvers
-        if giftrue is not '':
+        if giftrue != '':
             self.movie = QtGui.QMovie(giftrue)
         if flagonclick is True:
             self.qtobj.mousePressEvent = self.onclicked_
@@ -784,7 +789,7 @@ class obj(QtCore.QObject):
 
     def start(self):
         if self.flaginverslogic is False:
-            if self.movie is not '':
+            if self.movie != '':
                 self.qtobj.setMovie(self.movie)
                 self.movie.start()
             else:
@@ -797,7 +802,7 @@ class obj(QtCore.QObject):
         if self.flaginverslogic is False:
             self.qtobj.setPixmap(QtGui.QPixmap("./" + self.imgfalse))
         else:
-            if self.movie is not '':
+            if self.movie != '':
                 self.qtobj.setMovie(self.movie)
                 self.movie.start()
             else:
@@ -805,7 +810,7 @@ class obj(QtCore.QObject):
         self.state = False
 
     def switch(self, bit):
-        if bit is 1:
+        if bit == 1:
             if self.state is False:
                 self.start()
                 # print("start " + str(bit))
@@ -1133,7 +1138,7 @@ class plcrecept(object):
         else:
             return False
     def deccount(self):
-        if self.count is not 0:
+        if self.count != 0:
             self.count -= 1
         writedebug(u"Декремент счетчика замесов count =" + str(self.count))
     def nullcount(self):
@@ -1337,7 +1342,7 @@ class zakaz_(object):
             self.finish()
     def load(self):
         try:
-            for nrecprod, val in self.zakaz.iteritems():
+            for nrecprod, val in self.zakaz.items():
                 if nrecprod not in plcglobal.products.keys():
                     writedebug(u"Нет продукта")
                 if plcglobal.products[nrecprod].bunkers == None:
@@ -1654,9 +1659,9 @@ class ThreadPullPLCList(QtCore.QObject):
         writedebug(u"--+thread ThreadPullPLCList started")
         while self._isRunning is True:
             time.sleep(0.5)
-            listcoillocal_ = range(100)
-            listweightzernolocal_ = range(10)
-            listweightdobavkalocal_ = range(6)
+            listcoillocal_ = [None] * 100
+            listweightzernolocal_ =  [None] * 10
+            listweightdobavkalocal_ = [None] * 6
             for i in range(0, COUNTsiloszerno + 1):
                 listweightzernolocal_.insert(i, plcglobal.listplcrg16.getelement(i + OFFSETsiloszerno))
             plcglobal.recept.listzernoneed.pull(listweightzernolocal_)
@@ -1703,6 +1708,7 @@ class ThreadVisual1Level(QtCore.QObject): #level1 visualisation weights (dosator
             for i in range(0, 109 + 1):
                 # delay(10000)
                 time.sleep(0.003)
+
                 self.s1.emit(i, plcglobal.listplccoils.getelement(i))
                 self.vesisignal.emit(plcglobal.listplcrg16.getelement(REALVES1INDEX),
                                      plcglobal.listplcrg16.getelement(REALVES2INDEX),
@@ -1771,10 +1777,10 @@ class ThreadControlCommands(QtCore.QObject):
     def process(self):
         while(self._isRunning == True):
             time.sleep(1)
-            for cmd,command in plcglobal.commands.iteritems(): # контроль исполнения команд ПЛК
+            for cmd,command in plcglobal.commands.items(): # контроль исполнения команд ПЛК
                 if command.controlexec == True:
                     command.checkexecute()
-            # for namecmd,coil in plcglobal.controlplc.iteritems():
+            # for namecmd,coil in plcglobal.controlplc.items():
             #     coil.chk()
     def stop(self):
         self._isRunning = False
@@ -1804,7 +1810,7 @@ class ThreadControlRecept(QtCore.QObject):
         while(self._isRunning == True):
             time.sleep(1)
             self.showtime.emit(plcglobal.ticktimerrecept())
-            # for cmd,command in plcglobal.commands.iteritems(): # контроль исполнения команд ПЛК
+            # for cmd,command in plcglobal.commands.items(): # контроль исполнения команд ПЛК
             #     if command.controlexec == True:
             #         command.checkexecute()
 
@@ -1836,7 +1842,7 @@ class ThreadControlRecept(QtCore.QObject):
 
             shneknow_=0
             try:
-                for ishnek_,shnek_ in plcglobal.shnekszerno.iteritems():
+                for ishnek_,shnek_ in plcglobal.shnekszerno.items():
                     shneknow_ = ishnek_
                     shnek_.chkstate()
                     if shnek_.started:
@@ -1856,7 +1862,7 @@ class ThreadControlRecept(QtCore.QObject):
                             logging.error(traceback.format_exc())
                     if shnek_.error:
                         write(u"Слишком долго работает шнек " + str(ishnek_))
-                for ishnek_,shnek_ in plcglobal.shneksdobavka.iteritems():
+                for ishnek_,shnek_ in plcglobal.shneksdobavka.items():
                     shneknow_=ishnek_
                     shnek_.chkstate()
                     if shnek_.started:
@@ -2040,7 +2046,7 @@ class ThreadWorkZames(QtCore.QObject):
                         write(u"Ошибка обнуления регистров заказа "+str(err))
                     time.sleep(1)
                     try:
-                        for nrecprod,val in plcglobal.recept.zakaz.iteritems():
+                        for nrecprod,val in plcglobal.recept.zakaz.items():
                             if nrecprod not in plcglobal.products.keys():
                                 writedebug(u"Нет продукта")
                             if plcglobal.products[nrecprod].bunkers==None:
@@ -2151,7 +2157,7 @@ class ThreadWorkZames(QtCore.QObject):
                             write(u"Ошибка обнуления заказа " + str(err))
                         time.sleep(1)
                         try:
-                            for nrecprod, val in plcglobal.recept.zakaz.iteritems():
+                            for nrecprod, val in plcglobal.recept.zakaz.items():
                                 if (plcglobal.products[nrecprod].load_this(val)) == False:
                                     write(u"Не выделен бункер(выделенные пусты) для получения продукта " + (db.get_productname(nrecprod)[0][0]))
 
@@ -2659,7 +2665,7 @@ class MyApp(QMainWindow,Ui_MainWindow):
 
         # for i in range(0,len(loadreceptnamelist())):
         #     self.comboBoxRecept.addItem(loadreceptnamelist)
-        # if dbclient is not False:
+        # if dbclient != False:
         #     self.dbclient=dbclient
         # for row in self.dbclient.get_product(IDKORM):
         #     self.comboBoxRecept.addItem(row[NAMEPRODUCT])
@@ -3312,7 +3318,7 @@ class MyApp(QMainWindow,Ui_MainWindow):
                 self.connectstatuslabel.setStyleSheet('color: red')
                 # self.plcstatuslabel.setText(u"Статус ПЛК..Неизвестно")
 
-        banki = range(8)
+        banki = [None] * 8
         for i in range(0,8):
             banki[i] = plcglobal.recept.listzernoneed.getelement(i+2)
             if banki[i]>65000:
@@ -3327,7 +3333,7 @@ class MyApp(QMainWindow,Ui_MainWindow):
         self.labelbanka9.setText(str(banki[6]))
         self.labelbanka10.setText(str(banki[7]))
 
-        banki2 = range(6)
+        banki2 = [None] * 6
         for i in range(0, 6):
             banki2[i] = plcglobal.recept.listdobavkaneed.getelement(i)
             if banki2[i] > 65000:
@@ -3632,7 +3638,7 @@ class MyApp(QMainWindow,Ui_MainWindow):
             plcglobal.recept.koef = plcglobal.recept.ves1zames /1000
             dict_ = {}
             write(u"Рецепт полученный из базы данных: ")
-            for nrecprod,val in db.getreceptlist(plcglobal.recept.nrecrecept).iteritems():
+            for nrecprod,val in db.getreceptlist(plcglobal.recept.nrecrecept).items():
                 # dict_[int(db.getnumbunker(nrecprod))] = val*plcglobal.recept.koef
                 dict_[int(nrecprod)] = val * plcglobal.recept.koef
             # sorted(dict_.keys())
